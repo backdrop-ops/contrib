@@ -5,7 +5,7 @@ Foo project enables you to do bar.
 
 All lines in this file should be no more than 80 characters long for legibility,
 unless including a URL or example that requires the line not wrap. The first
-line of this paragraph is 80 character for reference.
+line of this paragraph is 80 characters for reference.
 
 Installation
 ------------
