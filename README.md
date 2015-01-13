@@ -5,7 +5,7 @@ This project allows you to apply to join the [contributed project developer team
 
 To apply simply create a request as an issue at https://github.com/backdrop-ops/contrib/issues/new
 
-If you have already written or ported a project to Backdrop, please include a link to the module or theme you have written, hosted either on Github under a personal account or elsewhere. After joining the Backdrop contributed modules group, you will be able to transfer the entire repository to live under `https://github.com/backdrop-contrib/[your_module_name]`
+If you have already written or ported a project to Backdrop, please include a link to the module or theme you have written, hosted either on Github under a personal account or elsewhere. After joining the Backdrop Contributed Project Group, you will be able to transfer the entire repository to live under `https://github.com/backdrop-contrib/[your_project_name]`
 
 Backdrop Contributed Project Author Agreement
 ---------------------------------------------
@@ -31,7 +31,7 @@ By publishing a project in the [Backdrop Contributed project group](https://gith
 
 1. If your project becomes abandoned and you do not respond to requests in the issue tracker within 2 weeks, your project may be modified by a Backdrop Contrib administrator without your explicit consent.
 
-Process for Abandoned Modules
+Process for Abandoned Projects
 -----------------------------
 
 If you feel a project in the Backdrop Contrib group has been abandoned, you may apply to adopt that project. To do so:
