@@ -24,8 +24,14 @@ License
 This project is GPL v2 software. See the LICENSE.txt file in this directory for
 complete text.
 
-Maintainers
------------
+Current Maintainers
+-------------------
 
 - John Smith (https://github.com/username/)
 - Jane Smith (https://github.com/username/)
+
+Past Maintainers
+----------------
+
+- Jim Smith (https://github.com/username/)
+- Jan Smith (https://github.com/username/)
