@@ -20,7 +20,8 @@ By publishing a project in the [Backdrop Contributed project group](https://gith
   1. A description of the project
   1. Basic documentation
   1. License information (GPL v2)
-  1. A list of the current maintainers for the project
+  1. A list of the current maintainers for the Backdrop project
+  1. A list of the past maintainers for the Backdrop or Drupal project
 
   You may use this [example README.md](https://github.com/backdrop-ops/contrib/blob/master/examples/README.md) to get started.
 1. You will work with the Backdrop Security Team to address any vulnerabilities in your code if necessary.

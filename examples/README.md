@@ -24,8 +24,14 @@ License
 This project is GPL v2 software. See the LICENSE.txt file in this directory for
 complete text.
 
-Maintainers
------------
+Current Maintainers
+-------------------
 
-- John Smith (https://github.com/username/)
-- Jane Smith (https://github.com/username/)
+- John Smith (https://github.com/username)
+
+Credits
+-------
+
+This module was originally written for Drupal by Bob Brown (https://github.com/username),
+based on the Magical Code in Bill Bailey's (https://github.com/username) project.
+
