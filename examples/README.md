@@ -30,8 +30,9 @@ Current Maintainers
 - John Smith (https://github.com/username/)
 - Jane Smith (https://github.com/username/)
 
-Past Maintainers
-----------------
+Credits
+-------
 
-- Jim Smith (https://github.com/username/)
-- Jan Smith (https://github.com/username/)
+This module was originally written for Drupal by Bob Brown
+(https://github.com/username), based on Bill Bailey's MagicalCode project
+(https://github.com/example).
