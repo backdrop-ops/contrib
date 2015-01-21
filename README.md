@@ -28,7 +28,7 @@ By publishing a project in the [Backdrop Contributed project group](https://gith
 
 1. You will enable the GitHub issue tracker for official communication.
 
-1. If you fail to do any of the above, your access to the Backdrop Contrib group -- including all projects including those that you may have originally authored -- may be revoked.
+1. If you fail to do any of the above, your access to the Backdrop Contrib group -- including all projects and even those that you may have originally authored -- may be revoked.
 
 1. If your project becomes abandoned and you do not respond to requests in the issue tracker within 2 weeks, your project may be modified by a Backdrop Contrib administrator without your explicit consent.
 
