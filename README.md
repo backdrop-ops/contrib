@@ -1,25 +1,30 @@
 Backdrop Contributed Project Group Application
 ==============================================
 
-This project allows you to apply to join the [contributed project developer team](https://github.com/backdrop-contrib/).
+Use this project to express interest in joining the growing list of developers maintaining a module or theme hosted at https://github.com/backdrop-contrib/.
 
 To apply simply create a request as an issue at https://github.com/backdrop-ops/contrib/issues/new
 
-If you have already written or ported a project to Backdrop, please include a link to the module or theme you have written, hosted either on Github under a personal account or elsewhere. After joining the Backdrop Contributed Project Group, you will be able to transfer the entire repository to live under `https://github.com/backdrop-contrib/[your_project_name]`
+You don't have to wait for access to Backdrop Contributed Project Group to share your code, nor is it required.  You can start writing or porting a project to Backdrop in your own GitHub account (or under a personal account hosted elsewhere). If you've already started a project, please include a link to the module or theme you have written. After joining the Backdrop Contributed Project Group, you will be able to transfer the entire repository to live under `https://github.com/backdrop-contrib/[your_project_name]`
 
 Backdrop Contributed Project Author Agreement
 ---------------------------------------------
 
-By publishing a project in the [Backdrop Contributed project group](https://github.com/backdrop-contrib) (Backdrop Contrib for short), you must agree to the following:
+By publishing a project in the [Backdrop Contributed Project Group](https://github.com/backdrop-contrib) (Backdrop Contrib for short), you must agree to the following:
 
 1. You will not push changes to a repository for which you are not a maintainer; even though joining the Backdrop Contrib group will grant you technical permission to push to any project within.
 
-1. You must include a copy of the [GPL v2 `LICENSE.txt` file](https://github.com/backdrop-ops/contrib/blob/master/examples/LICENSE.txt) in the root of your repository.
+1. You must agree to license your contributions as GPLv2 or later.
+
+1. You must include a copy of the [GPL v2 `LICENSE.txt` file](https://github.com/backdrop-ops/contrib/blob/master/examples/LICENSE.txt) in the root of your repository.  This license applies to all PHP code executed by Backdrop.  
+
+1. You must confirm that you have the right to distribute any additional code, libraries, images, fonts or other assets written or created by any third party with code licensed as GPLv2 or later. 
 
 1. You must include a `README.md` with all projects, including at the least the following:
   1. A description of the project
   1. Basic documentation
-  1. License information (GPL v2)
+  1. License information for the project (GPL v2)
+  1. License information for any additional assets (SIL OFL fonts, CC-SA images, etc) 
   1. A list of the current maintainers for the Backdrop project
   1. A list of the past maintainers for the Backdrop or Drupal project
 
