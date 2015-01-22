@@ -16,7 +16,7 @@ By publishing a project in the [Backdrop Contributed Project Group](https://gith
 
 1. You must agree to license your contributions as GPLv2 or later.
 
-1. You must include a copy of the [GPL v2 `LICENSE.txt` file](https://github.com/backdrop-ops/contrib/blob/master/examples/LICENSE.txt) in the root of your repository.  This license applies to all PHP code executed by Backdrop.  
+1. You must include a copy of the [GPL v2 `LICENSE.txt` file](https://github.com/backdrop-ops/contrib/blob/master/examples/LICENSE.txt) in the root of your repository.  The GPLv2 license applies to all code that directly interacts with parts of Backdrop licensed as GPLv2 or later.   
 
 1. You must confirm that you have the right to distribute any additional code, libraries, images, fonts or other assets written or created by any third party with code licensed as GPLv2 or later. 
 
