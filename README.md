@@ -7,6 +7,8 @@ To apply simply create a request as an issue at https://github.com/backdrop-ops/
 
 Please note: It is completely optional to post your modules, themes, or layouts in the Backdrop contrib group.
 
+If you have started writing or porting a project for Backdrop, please include a link to the module, theme, or layout you have written. If you have posted the code under your own GitHub account you will be able to easily transfer the entire repository to live under `https://github.com/backdrop-contrib/[your_project_name]` after joining the Backdrop Contributed Project Group.
+
 Benefits of joining:
 
 - Benefit from official security procedures for keeping your code healthy.
@@ -20,7 +22,12 @@ Requirements to join:
 - You must submit your first Backdrop project for a quick spot-check / review.
 - If you are not submitting code for review at the time of application (for the purposes of managing issues) you must have at least one recommendation from a person who is already a member of the Backdrop contrib group.
 
-If you have started writing or porting a project for Backdrop, please include a link to the module, theme, or layout you have written. If you have posted the code under your own GitHub account you will be able to easily transfer the entire repository to live under `https://github.com/backdrop-contrib/[your_project_name]` after joining the Backdrop Contributed Project Group.
+Rejected applications:
+
+- No rejected application to the Backdrop contrib group is final.
+- In the rare case that your application is rejected, you are welcome to reapply after a waiting period of 1 month.
+- After 1 month has passed, please open a new issue in the queue and try again.
+- Please carefully review the reason for rejection so that history does not repeat itself.
 
 Backdrop Contributed Project Agreement
 --------------------------------------
