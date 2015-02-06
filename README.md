@@ -12,6 +12,7 @@ If you have started writing or porting a project for Backdrop, please include a 
 Benefits of joining:
 
 - Benefit from official security procedures for keeping your code healthy.
+- Version information packaged into GitHub download automatically (planned).
 - Co-maintain your project with other Backdrop contrib developers.
 - Share the responsibilities of managing all the issue queues.
 - Collaborate with the larger Backdrop community.
