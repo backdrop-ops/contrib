@@ -36,3 +36,4 @@ Credits
 This module was originally written for Drupal by Bob Brown
 (https://github.com/username), based on Bill Bailey's MagicalCode project
 (https://github.com/example).
+
