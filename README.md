@@ -30,6 +30,15 @@ Rejected applications:
 - After 1 month has passed, please open a new issue in the queue and try again.
 - Please carefully review the reason for rejection so that history does not repeat itself.
 
+New project checklist
+---------------------
+
+All projects must meet these minimum requirements.
+
+- [ ] Include a LICENSE.txt file that indicates the code is GPL v2. You can use [this copy](https://raw.githubusercontent.com/backdrop-ops/contrib/master/examples/LICENSE.txt).
+- [ ] Include a README.md file that includes license and maintainer information. You can use [this example](https://raw.githubusercontent.com/backdrop-ops/contrib/master/examples/README.md).
+- [ ] Maintain the Git history from Drupal 7. See [this article](http://tag1consulting.com/blog/how-maintain-contrib-modules-drupal-and-backdrop-same-time-part-2).
+
 Backdrop Contributed Project Agreement
 --------------------------------------
 
