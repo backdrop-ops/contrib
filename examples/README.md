@@ -10,7 +10,7 @@ unless including a URL or example that requires the line not wrap. (The first
 line of this paragraph is 80 characters for reference.)
 
 Detail in READMEs should be limited to the minimum required for installation and
-getting started. More detailed documentation should be moved to a GitHub wiki page. For Example: https://github.com/backdrop-contrib/setup/wiki/Documentation
+getting started. More detailed documentation should be moved to a GitHub wiki page. https://github.com/backdrop-contrib/setup/wiki/Documentation
 
 Installation
 ------------
@@ -23,11 +23,17 @@ Installation
 
 - Any additional steps.
 
-License
--------
+Documentation
+-------------
 
-This project is GPL v2 software. See the LICENSE.txt file in this directory for
-complete text.
+Additional documentation is located in the Wiki:
+https://github.com/backdrop-contrib/foo-project/wiki/Documentation
+
+Issues
+------
+
+Bugs and Feature requests should be reported in the Issue Queue:
+https://github.com/backdrop-contrib/foo-project/issues
 
 Current Maintainers
 -------------------
@@ -41,3 +47,9 @@ Credits
 - Ported to Backdrop CMS by Betty Boop (https://github.com/username).
 - Originally written for Drupal by Bob Brown (https://github.com/username).
 - Based on Barbara Bailey's MagicalCode project (https://github.com/example).
+
+License
+-------
+
+This project is GPL v2 software. See the LICENSE.txt file in this directory for
+complete text.
