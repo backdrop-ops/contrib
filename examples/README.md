@@ -1,11 +1,16 @@
 The Name of My Project
 ======================
 
-Foo project enables you to do bar.
+Foo project enables you to do bar. The first paragraph of this file should be
+kept short as it will be used as the project summary on backdropcms.org. Aim for
+about 240 characters (three lines at 80 characters each).
 
 All lines in this file should be no more than 80 characters long for legibility,
-unless including a URL or example that requires the line not wrap. The first
-line of this paragraph is 80 characters for reference.
+unless including a URL or example that requires the line not wrap. (The first
+line of this paragraph is 80 characters for reference.)
+
+Detail in READMEs should be limited to the minimum required for installation and
+getting started. More detailed documentation should be moved to a GitHub wiki page. For Example: https://github.com/backdrop-contrib/setup/wiki/Documentation
 
 Installation
 ------------
