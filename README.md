@@ -63,8 +63,9 @@ Backdrop Contributed Project Agreement
 By joining the [Backdrop Contributed Project Group](https://github.com/backdrop-contrib)
 (Backdrop Contrib, for short) you agree to the following:
 
-1. You will not push changes or merge PRs for a repository for which you are not
-   a current maintainer (unless you are a member of the Backdrop Bug Squad).
+1. You will not push changes, merge PRs, or create releases for a repository for
+   which you are not a current maintainer (unless you are a member of the
+   `Backdrop Bug Squad`).
 
 1. You must agree to license your code contributions as GPL-2.0 or GPL-3.0.
 
@@ -109,7 +110,7 @@ By joining the [Backdrop Contributed Project Group](https://github.com/backdrop-
      or more, a member of the `Backdrop Bug Squad` may merge the pull request
      on your behalf.
    * If the bug is severe enough the `Backdrop Bug Squad` may also create a new
-     relasse for your project.
+     release for your project.
 
 1. If any of the above requirements are not met, your access to the Backdrop
    Contrib group -- including all projects and even those that you may have
@@ -215,17 +216,19 @@ The Backdrop Bug Squad
 ----------------------
 
 The `Backdrop Bug Squad` consists of trusted members of the backdrop-contrib
-group who will help other contributors stay on top of minor bug fixes and User
+group who will help contributors stay on top of minor bug fixes and User
 Interface improvements.
 
 Responsibilities include:
 - Reviewing Pull Requests for eligibility.
 - Merging eligible Pull Requests.
 - Communicating with existing maintainers.
+- Createing a new releases if a severe bug has been fixed.
 
 Fixes eligible inlude:
 - Minor Bugs (Fatal errors, PHP notices, validation errors, etc).
 - Minor User Interface changes (typos, spelling, grammar, terminology, etc).
+- Cross-ports of fixes from the original Drupal project (if applicable).
 - Any packaging issue preventing the project from being downloaded and installed
   via the Project Browser.
 - Any change that could be accepted after a feature freeze.
@@ -234,6 +237,9 @@ Fixes NOT eligible include:
 - Any new feature.
 - Any major code change or addition.
 
+The `Backdrop Bug Squad` can merge eligable Pull Requests for any project,
+it does not need to be abandoned.
+
 Any eligable Pull Request must be tagged as "Reviewed and Tested By the
 Community" for a period of at least 2 weeks before it can be merged.
 
@@ -241,14 +247,18 @@ You may apply to become a member of the Backdrop Bug Squad. Please
 [create an issue in this repository](https://github.com/backdrop-ops/contrib/issues/new)
 requesting to join.
 
+The Bug Squad members can be viewed, here:
+https://github.com/orgs/backdrop-ops/teams/bug-squad/members
+
 
 Abandoned Projects
 ------------------
 
-An abandoned project is one with no maintainer listed in the `README.md` file.
+A project is considered Abandoned when there is no maintainer listed in the
+`README.md` file.
 
-The ony changes that can be made to an abandoned project are security fixes, amd
-Pull Rrequests that are merged by the `Backdrop Bug Squad` (see above).
+The ony people who can make changes to an abandoned project are the `Backdrop
+Security Team` and the `Backdrop Bug Squad`.
 
 An abandoned project will not have any new releases other than a secutity
 release issued by the `Backdrop Security Team` or a bug-fix release issued
@@ -269,10 +279,14 @@ the project is abadoned.
   to request that the maintainer's name be removed from the `README.md` file.
   Please include a link to the issue you filed for the project.
 - Please understand that removing all maintainers will halt all forward
-  progress for the project. It would be better to...
+  progress for the project, as no new releases will be allowed until there is at
+  least one maintainer listed again.
+- Other options include:
   * Offer to co-maintain the project with the current maintainer.
-  * Offer to take over the project yourself.
-  * Locate another maintainer who would be willing to maintain the project.
+  * Locate another person who would be willing to co-maintain the project.
+  * Offer to take over maintainership of the project.
+  * Locate another person who would be willing to take over maintainership of
+    the project.
 
 If you are unhappy with the speed of progress or the amount of work being done
 on a particular project, you might want to offer to co-maintain the project,
