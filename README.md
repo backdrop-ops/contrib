@@ -8,10 +8,9 @@ To apply, create a request as an issue in this queue:
 https://github.com/backdrop-ops/contrib/issues/new.
 
 If you have started writing or porting a project for Backdrop, please include a
-link to the module, theme, or layout. If you have posted the code under your
-own GitHub account you will be able to easily transfer the entire repository
-to live under `https://github.com/backdrop-contrib/[your_project_name]` after
-joining the Backdrop Contributed Project Group.
+link to the module, theme, or layout under your own GitHub account. You will be
+able to easily transfer the entire repository to the backdrop-contrib GitHub
+group after you have access to the Backdrop Contributed Project Group.
 
 Benefits of joining:
 
@@ -36,15 +35,15 @@ Rejected applications:
 - In the rare case that your application is rejected, you are welcome to reapply
   after a waiting period of 1 month.
 - After 1 month has passed, please open a new issue in the queue and try again.
-- Please carefully review the reason for rejection so that history does not
-  repeat itself.
+- Please carefully review the reason for rejection before reapplying.
+
 
 New Project Checklist
 ---------------------
 
 All projects must meet these minimum requirements.
 
-- [ ] Maintain the Git history from Drupal 7. See
+- [ ] If porting a Drupal project, Maintain the Git history from Drupal 7. See
     [this article](http://tag1consulting.com/blog/how-maintain-contrib-modules-drupal-and-backdrop-same-time-part-2).
 - [ ] Include a README.md file that includes license and maintainer information.
     You can use [this example](https://raw.githubusercontent.com/backdrop-ops/contrib/master/examples/README.md).
@@ -57,56 +56,68 @@ All projects must meet these minimum requirements.
   * The GPL-3.0 license will prevent your project from one day being included in
     Backdrop core, so please only use this license when necessary.
 
+
 Backdrop Contributed Project Agreement
 --------------------------------------
 
 By joining the [Backdrop Contributed Project Group](https://github.com/backdrop-contrib)
 (Backdrop Contrib, for short) you agree to the following:
 
-1. You will not push changes to a repository for which you are not a current
-   maintainer (even though joining the Backdrop Contrib group will grant you
-   access to push to any project within).
+1. You will not push changes or merge PRs for a repository for which you are not
+   a current maintainer (unless you are a member of the Backdrop Bug Squad).
 
-1. You must agree to license your code contributions as GPLv2 or later.
+1. You must agree to license your code contributions as GPL-2.0 or GPL-3.0.
 
-1. Any project you create or maintain must include a copy of the [GPL-2.0
-   `LICENSE.txt` file](https://github.com/backdrop-ops/contrib/blob/master/examples/LICENSE.txt)
-   in the root of your repository. The GPLv2 license applies to all code that
-   directly interacts with parts of Backdrop licensed as GPLv2 or later. See the
-   [Backdrop License FAQ](https://backdropcms.org/license) for a more detailed
-   explanation.
+1. Any project you create or maintain must include a copy of the GPL-2.0 or
+   GPL-3.0 `LICENSE.txt` file in the root of your repository. The GPL license
+   applies to all code that directly interacts with parts of Backdrop licensed
+   as GPL-2.0 or GPL-3.0. See the [Backdrop License FAQ](https://backdropcms.org/license)
+   for a more detailed explanation.
 
 1. You must confirm that you have the right to distribute any additional code,
    libraries, images, fonts or other assets written or created by any third
-   party with code licensed as GPLv2 or later.
+   party with code licensed as GPL-2.0 or GPL-3.0.
 
 1. Any project you create or maintain must include a `README.md` file containing
    at the least the following:
     1. A description of the project
-    1. Basic documentation
-    1. License information for the project (GPL-2.0)
+    1. Basic documentation or installation instructions.
+    1. License information for the project (GPL-2.0 or GPL-3.0)
     1. License information for any additional assets (SIL OFL fonts, CC-SA
        images, etc)
     1. A list of the current maintainers for the Backdrop project
-    1. Credits acknowledging past maintainers for the Backdrop or Drupal
-       projects
+    1. Credits acknowledging past maintainers, creators, and others worthy.
 
    You may use this [example README.md](https://github.com/backdrop-ops/contrib/blob/master/examples/README.md)
    to get started.
 
-1. You will work with the Backdrop Security Team to address any vulnerabilities
-   in any project you create or maintain, if necessary.
-
 1. Any project you create or maintain will have the GitHub issue tracker enabled
    for official communication.
+
+1. You will work with the `Backdrop Security Team` to address any vulnerabilities
+   in any project you create or maintain, if necessary.
+
+   * If you are not available the day a security release is needed (usually a
+     Wednesday), you understand that the `Backdrop Security Team` may create a
+     security release on your behalf.
+
+1. You will work with the Backdrop Community to review issues in the queue
+   and submitted Pull Requests.
+
+   * If your project has Pull Requests for issues that are tagged "Bug" that have
+     been marked "Reviewed and Tested By the Community" for a period of 2 weeks
+     or more, a member of the `Backdrop Bug Squad` may merge the pull request
+     on your behalf.
+   * If the bug is severe enough the `Backdrop Bug Squad` may also create a new
+     relasse for your project.
 
 1. If any of the above requirements are not met, your access to the Backdrop
    Contrib group -- including all projects and even those that you may have
    originally authored -- may be revoked.
 
-1. If your project becomes abandoned and you do not respond to an issue to grant
+1. If your project becomes Abandoned and you do not respond to an issue to grant
    a new maintainer within 2 weeks, your project may be modified by a Backdrop
-   Contrib Administrator to add a new maintainer, without your explicit consent.
+   Contrib Administrator without your explicit consent, to add a new maintainer.
 
 Additional Notes For Non-coders
 -------------------------------
@@ -127,12 +138,11 @@ Additional Notes For Non-coders
 
 What To Do After Your Application Is Accepted
 ---------------------------------------------
-When you are ready:
 
 1. Clean up your code so it's ready for community collaboration.
 
-1. If you started your project with a title like "backdrop-port-of-xyz", change
-   the name of the project to exactly match the Drupal project (e.g. "xyz").
+1. If you started your project with a title like `backdrop-port-of-xyz`, change
+   the name of the project to exactly match the Drupal project (e.g. `xyz`).
 
 1. Transfer the project to the backdrop-contrib organization following the steps
    mentioned [in this post](https://help.github.com/articles/transferring-a-repository-owned-by-your-personal-account/#transferring-to-an-organization).
@@ -167,13 +177,14 @@ When you are ready:
 1. If your project is a port of a Drupal project, it is a best practice to
    subscribe to the issue queue on drupal.org. That way you can be updated when
    issues are fixed. You can then decide if you want any of those commits in
-   your project. Similarly, if you fix bugs or or add new features, please
-   consider letting the maintainer(s) of the original project know about it.
-   It would be even better to post a patch in the Drupal queue for them to
-   review. If you have found a security issue that applies to both, please try
-   to coordinate the release of the fix with the maintainers of the original
-   project **through non-public channels** so that potential attackers do not
-   take advantage of either Backdrop or Drupal sites.
+   your project.
+   * If you fix bugs or or add new features, please consider letting
+     the maintainer(s) of the original project know about it. You might post
+     your patches in the Drupal queue for the other project to consider.
+   * If you have found a security issue that applies to both projects, please
+     coordinate the release of the fix with the maintainers of the original
+     project **through non-public channels** so that potential attackers can not
+     take advantage of either Backdrop or Drupal sites.
 
 
 Releases
@@ -200,8 +211,76 @@ Security Team will need to update the project release node on backdropcms.org to
 inidciate that a release is a security release.
 
 
+The Backdrop Bug Squad
+----------------------
+
+The `Backdrop Bug Squad` consistes of trusted members of the backdrop-contrib
+group who will help other contributors stay on top of minor bug fixes and User
+Interface improvements.
+
+Responsibilities include:
+- Reviewing Pull Requests for eligibility.
+- Merging eligible Pull Requests.
+- Communicating with existing maintainers.
+
+Fixes eligible inlude:
+- Minor Bugs (Fatal errors, PHP notices, validation errors, etc).
+- Minor User Interface changes (typos, spelling, grammar, terminology, etc).
+- Any packaging issue preventing the project from being downloaded and installed
+  via the Project Browser.
+- Any change that could be accepted after a feature freeze.
+
+Fixes NOT eligible include:
+- Any new feature.
+- Any major code change or addition.
+
+Any eligable Pull Request must be tagged as "Reviewed and Tested By the
+Community" for a period of at least 2 weeks before it can be merged.
+
+You may apply to become a member of the Backdrop Bug Squad. Please
+[create an issue in this repository](https://github.com/backdrop-ops/contrib/issues/new)
+requesting to join.
+
+
 Abandoned Projects
 ------------------
+
+An abandoned project is one with no maintainer listed in the `README.md` file.
+
+The ony changes that can be made to an abandoned project are security fixes, amd
+Pull Rrequests that are merged by the `Backdrop Bug Squad` (see above).
+
+An abandoned project will not have any new releases other than a secutity
+release issued by the `Backdrop Security Team` or a bug-fix release issued
+by the `Backdrop Bug Squad`. A project must have a current maintainer listed in
+the `README.md` file to have a new release containing new features, or any
+substantial changes.
+
+
+Determining Abandoned Projects
+------------------------------
+
+If you believe that a project has been abandoned but there is a maintainer
+listed in the `README.md` file, you can open an issue asking the maintainer if
+the project is abadoned.
+
+- If the maintainer responds within 2 weeks, the project has not been abandoned.
+- If the maintainer does NOT respond within 2 weeks, you can [create an issue in this repository](https://github.com/backdrop-ops/contrib/issues/new)
+  to request that the maintainer's name be removed from the `README.md` file.
+  Please include a link to the issue you filed for the project.
+- Please understand that removing all maintainers will hault all forward
+  progress for the project. It would be better to...
+  * Offer to co-maintain the project with the current maintainer.
+  * Offer to take over the project yorself.
+  * Locate another maintainer who would be willing to maintain the project.
+
+If you are unhappy with the speed of progress or the amount of work being done
+on a particular project, you might want to offer to co-maintain the project,
+at least for a little while, to help move things along.
+
+
+Adopting Abandoned Projects
+---------------------------
 
 You may apply to adopt an abandoned project. The procedure is as follows:
 
@@ -213,9 +292,9 @@ You may apply to adopt an abandoned project. The procedure is as follows:
 
   - If written permission is granted by a current maintainer, create a PR that
     adds your name to the README.md file in the list of maintainers.
-  - If a current maintainer does not respond within 2 weeks, [create an issue
-    in this repository](https://github.com/backdrop-ops/contrib/issues/new)
-    to take over the project. Please include a link to the issue you filed with
+  - If the project does not have a listed maintainer, or if a current maintainer
+    does not respond within 2 weeks, [create an issue in this repository](https://github.com/backdrop-ops/contrib/issues/new)
+    to take over the project. Please include a link to the issue you filed for
     the abandoned project.
 
 1. After confirming the project has been abandoned, a Backdrop Contrib
@@ -223,5 +302,5 @@ You may apply to adopt an abandoned project. The procedure is as follows:
    README.md file.
 
 1. You may now maintain the project directly as though given permission by the
-   project maintainers, and likewise now grant permission to others to maintain
-   the project.
+   current maintainer. Likewise, you may now grant permission for others to
+   co-maintain the project as well.
