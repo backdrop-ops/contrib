@@ -98,9 +98,9 @@ agree to the following:
    Contrib group -- including all projects and even those that you may have
    originally authored -- may be revoked.
 
-1. If your project becomes abandoned and you do not respond to requests in the
-   issue tracker within 2 weeks, your project may be modified by a Backdrop
-   Contrib administrator without your explicit consent.
+1. If your project becomes abandoned and you do not respond to an issue to grant
+   a new maintainer within 2 weeks, your project may be modified by a Backdrop
+   Contrib Administrator to add a new maintainer, without your explicit consent.
 
 Additional notes for non-coders
 -------------------------------
