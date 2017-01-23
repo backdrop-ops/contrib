@@ -20,7 +20,7 @@ Backdrop Contributed Project Group.
 Benefits of joining:
 
 - Benefit from official security procedures for keeping your code healthy.
-- Version information packaged into GitHub download automatically (planned).
+- Version information packaged into GitHub download automatically.
 - Co-maintain your project with other Backdrop contrib developers.
 - Share the responsibilities of managing all the issue queues.
 - Collaborate with the larger Backdrop community.
