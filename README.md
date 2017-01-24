@@ -42,7 +42,7 @@ Rejected applications:
 - Please carefully review the reason for rejection so that history does not
   repeat itself.
 
-New project checklist
+New Project Checklist
 ---------------------
 
 All projects must meet these minimum requirements.
@@ -102,7 +102,19 @@ agree to the following:
    a new maintainer within 2 weeks, your project may be modified by a Backdrop
    Contrib Administrator to add a new maintainer, without your explicit consent.
 
-Additional notes for non-coders
+What To Do After Your Application Is Accepted
+---------------------------------------------
+1. Clean up your project as much as possible.
+
+1. Transfer the project to the backdrop-contrib organization following the steps mentioned [in this post] (https://help.github.com/articles/transferring-a-repository-owned-by-your-personal-account/). If you started your project with a title like "backdrop-port-of-xxx", feel free to drop the prefix or change the name to something you think makes more sense during the transfer.
+
+1. Tag[ a release](https://help.github.com/articles/creating-releases/). You must tag a release in the format of "1.x-1.0.0" for the packaging script to work. You can see right away on the release page if there was an error during the packaging process. If successful, your ported module should appear on the [Backdrop module listing page](https://backdropcms.org/modules).
+
+1. Make sure you are subscribed to notifications for the project's issues. The Github issue queue is where all the communication for your project happens, and when new issues are created, you need to know about them and respond in a timely manner or else your project might be considered abandoned following the procedure listed below. Plus, if you've made it this far, why stop now and ignore the throngs of people who are about to use your awesome module! 90% of issues filed on Github are about how awesome the project is anyways, I can assure you of that :)
+
+1. (Optional) Subscribe to the issue queue on drupal.org if your module is a port. It's always nice to know about new features and bug fixes that you can incorporate in your module as well as important security-related issues. Similarly, if you fix a major issue or add a new feature, it's nice to let the Drupal maintainer know about your update.
+
+Additional Notes For Non-coders
 -------------------------------
 
 1. If an applicant is not (yet) a coder but would still like access to the
