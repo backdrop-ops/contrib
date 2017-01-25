@@ -156,4 +156,4 @@ You may apply to adopt an abandoned project. The procedure is as follows:
 
 1. You may now maintain the project directly as though given permission by the
    project maintainers, and likewise now grant permission to others to maintain
-   the projec     gggg
+   the project.
