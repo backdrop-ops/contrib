@@ -124,14 +124,29 @@ When you are ready:
 
 1. Clean up your project as much as possible.
 
-1. Transfer the project to the backdrop-contrib organization following the steps mentioned [in this post]    
-   (https://help.github.com/articles/transferring-a-repository-owned-by-your-personal-account/). If you started your project    with a title like "backdrop-port-of-xxx", change the name of the project to exactly match the Drupal project.
+1. Transfer the project to the backdrop-contrib organization following the steps 
+   mentioned [in this post](https://help.github.com/articles/transferring-a-repository-owned-by-your-personal-account/). 
+   If you started your project with a title like "backdrop-port-of-xyz", change 
+   the name of the project to exactly match the Drupal project.
 
-1. Tag [a release](https://help.github.com/articles/creating-releases/). You must tag a release in the format of "1.x-1.0.0"    for the packaging script to work. You can see right away on the release page if there was an error during the packaging      process. If successful, your ported project should appear on the [modules listing page](https://backdropcms.org/modules)      or the [themes listing page](https://backdropcms.org/themes) on BackdropCMS.org.
+1. Tag [a release](https://help.github.com/articles/creating-releases/). You 
+   must tag a release in the format of "1.x-1.0.0" for the packaging script to 
+   work. You can see right away on the release page if there was an error during 
+   the packaging process. If successful, your ported project should appear on 
+   the [modules listing page](https://backdropcms.org/modules) or the 
+   [themes listing page](https://backdropcms.org/themes) on BackdropCMS.org.
 
-1. Make sure you are subscribed to notifications for the project's issues. The GitHub issue queue is where all the              communication for your project happens, and when new issues are created, you need to know about them and respond in a        timely manner otherwise your project might be considered abandoned following the procedure listed below.
+1. Make sure you are subscribed to notifications for the project's issues. The 
+   GitHub issue queue is where all the communication for your project happens, 
+   and when new issues are created, you need to know about them and respond in a
+   timely manner otherwise your project might be considered abandoned following 
+   the procedure listed below.
 
-1. (Optional) Subscribe to the issue queue on drupal.org if your module is a port. It's always nice to know about new            features and bug fixes that you can incorporate in your module as well as important security-related issues. Similarly, if    you fix a major issue or add a new feature, it's nice to let the Drupal maintainer know about your update.
+1. (Optional) Subscribe to the issue queue on drupal.org if your module is a 
+   port. It's always nice to know about new features and bug fixes that you can 
+   incorporate in your module as well as important security-related issues. 
+   Similarly, if you fix a major issue or add a new feature, it's nice to let 
+   the Drupal maintainer know about your update.
 
 Abandoned Projects
 ------------------
