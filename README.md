@@ -57,8 +57,8 @@ You can use [this example](https://raw.githubusercontent.com/backdrop-ops/contri
 Backdrop Contributed Project Agreement
 --------------------------------------
 
-By joining the [Backdrop Contributed Project Group](https://github.com/backdrop-contrib) (Backdrop Contrib, for short) you
-agree to the following:
+By joining the [Backdrop Contributed Project Group](https://github.com/backdrop-contrib)
+(Backdrop Contrib, for short) you agree to the following:
 
 1. You will not push changes to a repository for which you are not a current
    maintainer (even though joining the Backdrop Contrib group will grant you
@@ -66,11 +66,12 @@ agree to the following:
 
 1. You must agree to license your code contributions as GPLv2 or later.
 
-1. Any project you create or maintain must include a copy of the [GPL v2 `LICENSE.txt` file](https://github.com/backdrop-ops/contrib/blob/master/examples/LICENSE.txt)
+1. Any project you create or maintain must include a copy of the [GPL v2
+   `LICENSE.txt` file](https://github.com/backdrop-ops/contrib/blob/master/examples/LICENSE.txt)
    in the root of your repository. The GPLv2 license applies to all code that
-   directly interacts with parts of Backdrop licensed as GPLv2 or later.  See
-   for the [Backdrop License FAQ](https://backdropcms.org/license) for a more
-   detailed explanation.
+   directly interacts with parts of Backdrop licensed as GPLv2 or later. See the
+   [Backdrop License FAQ](https://backdropcms.org/license) for a more detailed
+   explanation.
 
 1. You must confirm that you have the right to distribute any additional code,
    libraries, images, fonts or other assets written or created by any third
@@ -86,7 +87,8 @@ agree to the following:
   1. A list of the current maintainers for the Backdrop project
   1. Credits acknowledging past maintainers for the Backdrop or Drupal projects
 
-  You may use this [example README.md](https://github.com/backdrop-ops/contrib/blob/master/examples/README.md) to get started.
+  You may use this [example README.md](https://github.com/backdrop-ops/contrib/blob/master/examples/README.md)
+  to get started.
 
 1. You will work with the Backdrop Security Team to address any vulnerabilities
    in any project you create or maintain, if necessary.
@@ -131,9 +133,10 @@ You may apply to adopt an abandoned project. The procedure is as follows:
 
   - If written permission is granted by a current maintainer, create a PR that
     adds your name to the README.md file in the list of maintainers.
-  - If a current maintainer does not respond within 2 weeks [create an issue in this repository](https://github.com/backdrop-ops/contrib/issues/new) to take
-    over the project. Please include a link to the issue you filed with the
-    abandoned project.
+  - If a current maintainer does not respond within 2 weeks, [create an issue
+    in this repository](https://github.com/backdrop-ops/contrib/issues/new)
+    to take over the project. Please include a link to the issue you filed with
+    the abandoned project.
 
 1. After confirming the project has been abandoned, a Backdrop Contrib
    administrator will add your name to the list of maintainers in that project's
