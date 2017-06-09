@@ -79,16 +79,16 @@ By joining the [Backdrop Contributed Project Group](https://github.com/backdrop-
 
 1. Any project you create or maintain must include a `README.md` file containing
   at the least the following:
-  1. A description of the project
-  1. Basic documentation
-  1. License information for the project (GPL v2)
-  1. License information for any additional assets (SIL OFL fonts, CC-SA images,
-     etc)
-  1. A list of the current maintainers for the Backdrop project
-  1. Credits acknowledging past maintainers for the Backdrop or Drupal projects
+    1. A description of the project
+    1. Basic documentation
+    1. License information for the project (GPL v2)
+    1. License information for any additional assets (SIL OFL fonts, CC-SA images,
+       etc)
+    1. A list of the current maintainers for the Backdrop project
+    1. Credits acknowledging past maintainers for the Backdrop or Drupal projects
 
-  You may use this [example README.md](https://github.com/backdrop-ops/contrib/blob/master/examples/README.md)
-  to get started.
+    You may use this [example README.md](https://github.com/backdrop-ops/contrib/blob/master/examples/README.md)
+    to get started.
 
 1. You will work with the Backdrop Security Team to address any vulnerabilities
    in any project you create or maintain, if necessary.
