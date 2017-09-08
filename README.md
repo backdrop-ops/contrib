@@ -42,7 +42,7 @@ Rejected applications:
 - Please carefully review the reason for rejection so that history does not
   repeat itself.
 
-New project checklist
+New Project Checklist
 ---------------------
 
 All projects must meet these minimum requirements.
@@ -104,7 +104,7 @@ By joining the [Backdrop Contributed Project Group](https://github.com/backdrop-
    a new maintainer within 2 weeks, your project may be modified by a Backdrop
    Contrib Administrator to add a new maintainer, without your explicit consent.
 
-Additional notes for non-coders
+Additional Notes For Non-coders
 -------------------------------
 
 1. If an applicant is not (yet) a coder but would still like access to the
@@ -119,6 +119,36 @@ Additional notes for non-coders
    wish to author new code in the Backdrop contrib group, they will also undergo
    the same code spot-check process a new contributor needs to undergo at the
    time they add the code.
+
+What To Do After Your Application Is Accepted
+---------------------------------------------
+When you are ready:
+
+1. Clean up your project as much as possible.
+
+1. Transfer the project to the backdrop-contrib organization following the steps 
+   mentioned [in this post](https://help.github.com/articles/transferring-a-repository-owned-by-your-personal-account/). 
+   If you started your project with a title like "backdrop-port-of-xyz", change 
+   the name of the project to exactly match the Drupal project.
+
+1. Tag [a release](https://help.github.com/articles/creating-releases/). You 
+   must tag a release in the format of "1.x-1.0.0" for the packaging script to 
+   work. You can see right away on the release page if there was an error during 
+   the packaging process. If successful, your ported project should appear on 
+   the [modules listing page](https://backdropcms.org/modules) or the 
+   [themes listing page](https://backdropcms.org/themes) on BackdropCMS.org.
+
+1. Make sure you are subscribed to notifications for the project's issues. The 
+   GitHub issue queue is where all the communication for your project happens, 
+   and when new issues are created, you need to know about them and respond in a
+   timely manner otherwise your project might be considered abandoned following 
+   the procedure listed below.
+
+1. (Optional) Subscribe to the issue queue on drupal.org if your module is a 
+   port. It's always nice to know about new features and bug fixes that you can 
+   incorporate in your module as well as important security-related issues. 
+   Similarly, if you fix a major issue or add a new feature, it's nice to let 
+   the Drupal maintainer know about your update.
 
 Abandoned Projects
 ------------------
