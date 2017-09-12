@@ -5,7 +5,7 @@ Interested in joining the growing Backdrop contributor community at
 https://github.com/backdrop-contrib?
 
 To apply simply create a request as an issue at
-https://github.com/backdrop-ops/contrib/issues/new
+https://github.com/backdrop-ops/contrib/issues/new.
 
 Please note: It is completely optional to post your modules, themes, or layouts
 in the Backdrop contrib group.
@@ -78,17 +78,18 @@ By joining the [Backdrop Contributed Project Group](https://github.com/backdrop-
    party with code licensed as GPLv2 or later.
 
 1. Any project you create or maintain must include a `README.md` file containing
-  at the least the following:
+   at the least the following:
     1. A description of the project
     1. Basic documentation
     1. License information for the project (GPL v2)
-    1. License information for any additional assets (SIL OFL fonts, CC-SA images,
-       etc)
+    1. License information for any additional assets (SIL OFL fonts, CC-SA
+       images, etc)
     1. A list of the current maintainers for the Backdrop project
-    1. Credits acknowledging past maintainers for the Backdrop or Drupal projects
+    1. Credits acknowledging past maintainers for the Backdrop or Drupal
+       projects
 
-      You may use this [example README.md](https://github.com/backdrop-ops/contrib/blob/master/examples/README.md)
-      to get started.
+   You may use this [example README.md](https://github.com/backdrop-ops/contrib/blob/master/examples/README.md)
+   to get started.
 
 1. You will work with the Backdrop Security Team to address any vulnerabilities
    in any project you create or maintain, if necessary.
@@ -126,10 +127,32 @@ When you are ready:
 
 1. Clean up your project as much as possible.
 
+1. If you started your project with a title like "backdrop-port-of-xyz", change
+   the name of the project to exactly match the Drupal project (e.g. "xyz").
+
 1. Transfer the project to the backdrop-contrib organization following the steps
-   mentioned [in this post](https://help.github.com/articles/transferring-a-repository-owned-by-your-personal-account/).
-   If you started your project with a title like "backdrop-port-of-xyz", change
-   the name of the project to exactly match the Drupal project.
+   mentioned [in this post](https://help.github.com/articles/transferring-a-repository-owned-by-your-personal-account/#transferring-to-an-organization).
+    1. After clicking 'I understand, transfer this repository', you'll be shown
+       the 'Team Access' screen where you choose who will have access to this
+       repo. Tick both 'Authors' and 'Security', then click 'Transfer'.
+    1. Visit the repository's new page, and go to 'Settings'.
+    1. Click 'Collaborators & teams' in the left menu.
+    1. Under 'Teams', set 'Authors' to Admin and 'Security' to Write.
+
+1. If your repository has a 'master' branch, you'll need to create a new
+   '1.x-1.x' branch to replace it:
+    1. Create the new '1.x-1.x' branch
+       ```
+       git checkout master
+       git pull origin master
+       git checkout -b 1.x-1.x
+       git push origin 1.x-1.x
+       ```
+    1. Go to 'Settings' in the GitHib repo and click 'Branches' in the left
+       menu.
+    1. Change the default branch from 'master' to '1.x-1.x'.
+    1. Delete the 'master' branch
+       `git push origin --delete master`
 
 1. Tag [a release](https://help.github.com/articles/creating-releases/). You
    must tag a release in the format of "1.x-1.0.0" for the packaging script to
