@@ -1,14 +1,23 @@
-Backdrop Contributed Project Group Application
+What is the difference between Backdrop Contrib Project Group and backdrop-ops/contrib?
 ==============================================
 
-Interested in joining the growing Backdrop contributor community at
-https://github.com/backdrop-contrib?
+The Backdrop Contrib Project Group is an organization structure that retains ownership of the individual project repositories as developers come and go from projects.  Managing projects within the Backdrop Contrib Project Group facilitates the packaging and discovery of projects on Backdropcms.org, collaboration with other member of the Backdrop Contrib Project Group and security coverage. 
 
-To apply simply create a request as an issue at
-https://github.com/backdrop-ops/contrib/issues/new.
+The backdrop-ops/contrib/issues can be used to get feedback and find collaborators for a potential Backdrop project and to apply to join the growing community of developers maintaining a module or theme hosted at https://github.com/backdrop-contrib/ and discuss [META] issues realted to contributing to Backdrop.
 
-Please note: It is completely optional to post your modules, themes, or layouts
-in the Backdrop contrib group.
+Getting Started?
+==============================================
+
+The process of (porting a project from Drupal to Backdrop is well documented)[https://api.backdropcms.org/converting-from-drupal].
+
+If you intend to port a module from Drupal to Backdrop, simply create an issue titled "Intent to Port [project]" as an issue at https://github.com/backdrop-ops/contrib/issues/new
+
+Because using Github's labels requires addition permissions within the project, use issue title changes to indicate a change in the status from "Intent to Port [project]" to  "Need Help with Porting [project]" or "Need Reviews of [project]".
+
+Applying to join the Backdrop Contrib Project Group
+==============================================
+
+To apply to join the group, simply create an issue titled "Request to Join" as an issue at https://github.com/backdrop-ops/contrib/issues/new (@TODO add more details based on https://github.com/backdrop-ops/contrib/issues/284)
 
 If you have started writing or porting a project for Backdrop, please include a
 link to the module, theme, or layout you have written. If you have posted the
@@ -27,7 +36,7 @@ Benefits of joining:
 
 Requirements to join:
 
-- You must agree to the Backdrop Contributed Project Agreement, below.
+- You must agree to the Backdrop Contributed Project Agreement, below. (@TODO add more details based on https://github.com/backdrop-ops/contrib/issues/285)
 - You must submit your first Backdrop project for a quick spot-check / review.
 - If you are not submitting code for review at the time of application (for the
   purposes of managing issues) you must have at least one recommendation from a
