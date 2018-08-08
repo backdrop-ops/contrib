@@ -28,7 +28,8 @@ Benefits of joining:
 Requirements to join:
 
 - You must agree to the Backdrop Contributed Project Agreement, below.
-- You must submit your first Backdrop project for a quick spot-check / review.
+- You must either submit your first Backdrop project for a quick spot-check / review
+  or submit links to PRs or commits to existing Backdrop projects.
 - If you are not submitting code for review at the time of application (for the
   purposes of managing issues) you must have at least one recommendation from a
   person who is already a member of the Backdrop contrib group.
