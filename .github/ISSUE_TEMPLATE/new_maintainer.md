@@ -15,16 +15,14 @@ To join the group, you will need to:
 Here are sample application request templates you can fill out to make the process go as 
 smoothly as possible for the contrib application maintainers. There are three types of maintainer applications you can file an issue for in order to join the group. Please use only one template for your application and delete all of the other ones.
 
-Coder:
+**Coder:**
 - New project or ported Drupal module
 - Help maintain an existing project
 
-Non-coder:
+**Non-coder:**
 - Help maintain project issue queues and documentation
 
 Once you have filed an issue using one of the templates below, a member of the Backdrop contrib group will review your application and provide further instructions. Once again, thanks for your interest in joining the Backdrop contrib group, and we look forward to seeing you in the issue queues and on Gitter!
-
--------------------------
 
 ## New Project Maintainer
 
@@ -43,8 +41,6 @@ All Backdrop projects must meet these minimum requirements. I have read and comp
 You can use [this example](https://raw.githubusercontent.com/backdrop-ops/contrib/master/examples/README.md).
 - [ ] Maintain the Git history from Drupal 7. See
 [this article](http://tag1consulting.com/blog/how-maintain-contrib-modules-drupal-and-backdrop-same-time-part-2).
-
--------------------------------
 
 ## Existing Project Maintainer
 
