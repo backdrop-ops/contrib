@@ -28,8 +28,8 @@ Benefits of joining:
 Requirements to join:
 
 - You must agree to the Backdrop Contributed Project Agreement, below.
-- You must either submit your first Backdrop project for a quick spot-check / review,
-  or submit links to PRs or commits to existing Backdrop projects.
+- You must either submit your first Backdrop project for a quick spot-check /
+  review, or submit links to PRs or commits to existing Backdrop projects.
 - If you are not submitting code for review at the time of application (for the
   purposes of managing issues) you must have at least one recommendation from a
   person who is already a member of the Backdrop contrib group.
@@ -48,10 +48,15 @@ New Project Checklist
 
 All projects must meet these minimum requirements.
 
-- [ ] Include a LICENSE.txt file that indicates the code is GPL v2. You can use
-[this copy](https://raw.githubusercontent.com/backdrop-ops/contrib/master/examples/LICENSE.txt).
 - [ ] Include a README.md file that includes license and maintainer information.
 You can use [this example](https://raw.githubusercontent.com/backdrop-ops/contrib/master/examples/README.md).
+- [ ] Include a LICENSE.txt file that indicates the contributed code is GPL v2
+      (or in some cases, GPLv3).
+  * Please use [this text for GPL v2](https://raw.githubusercontent.com/backdrop-ops/contrib/master/examples/LICENSE.txt).
+  * If your project includes a library that is GPL v3 then you must license your
+    project as GPL v3. The GPL v3 license will prevent your project from being
+    included in Backdrop core in the future, so please only use this license
+    when necessary. You may use [this text for GPL v3](https://raw.githubusercontent.com/backdrop-ops/contrib/master/examples/LICENSE=GPLv3.txt).
 - [ ] Maintain the Git history from Drupal 7. See
 [this article](http://tag1consulting.com/blog/how-maintain-contrib-modules-drupal-and-backdrop-same-time-part-2).
 
