@@ -48,19 +48,18 @@ New Project Checklist
 
 All projects must meet these minimum requirements.
 
+- [ ] Maintain the Git history from Drupal 7. See
+    [this article](http://tag1consulting.com/blog/how-maintain-contrib-modules-drupal-and-backdrop-same-time-part-2).
 - [ ] Include a README.md file that includes license and maintainer information.
-You can use [this example](https://raw.githubusercontent.com/backdrop-ops/contrib/master/examples/README.md).
+    You can use [this example](https://raw.githubusercontent.com/backdrop-ops/contrib/master/examples/README.md).
 - [ ] Include a LICENSE.txt file that indicates the contributed code is GPL-2.0
-      (or GPL-3.0 -- please see below). Please use [this text for GPL-2.0](https://raw.githubusercontent.com/backdrop-ops/contrib/master/examples/LICENSE.txt).
+    (or in rare cases GPL-3.0 -- please see below). Please use [this text for GPL-2.0](https://raw.githubusercontent.com/backdrop-ops/contrib/master/examples/LICENSE.txt).
   * If your project includes a library that is licensed under GPL-3.0, LGPL-3.0,
     Apache-2.0, AGPL-3, or any other license that the Free Software Foundation
     has determined to [only be compatible with GPL-3.0](http://www.gnu.org/licenses/license-list.html#GPLCompatibleLicenses),
-    then you must license your project as GPL-3.0.
-  * You may use [this text for GPL-3.0](https://raw.githubusercontent.com/backdrop-ops/contrib/master/examples/LICENSE-GPL-3-0.txt).
-  * The GPL-3.0 license will prevent your from one day being included in
+    then you must license your project as GPL-3.0. Please use [this text for GPL-3.0](https://raw.githubusercontent.com/backdrop-ops/contrib/master/examples/LICENSE-GPL-3-0.txt).
+  * The GPL-3.0 license will prevent your project from one day being included in
     Backdrop core, so please only use this license when necessary.
-- [ ] Maintain the Git history from Drupal 7. See
-[this article](http://tag1consulting.com/blog/how-maintain-contrib-modules-drupal-and-backdrop-same-time-part-2).
 
 Backdrop Contributed Project Agreement
 --------------------------------------
