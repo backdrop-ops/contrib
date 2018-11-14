@@ -51,13 +51,13 @@ All projects must meet these minimum requirements.
 - [ ] Include a README.md file that includes license and maintainer information.
 You can use [this example](https://raw.githubusercontent.com/backdrop-ops/contrib/master/examples/README.md).
 - [ ] Include a LICENSE.txt file that indicates the contributed code is GPL-2.0
-      (or in some cases, GPLv3, please see below).
+      (or in some cases, GPL-3.0, please see below).
   * Please use [this text for GPL-2.0](https://raw.githubusercontent.com/backdrop-ops/contrib/master/examples/LICENSE.txt).
   * If your project includes a library that is licensed under GPL-3.0, LGPL-3.0,
     Apache-2.0, AGPL-3, or any other license that the Free Software Foundation
     has determined to [only be compatible with GPL-3.0](http://www.gnu.org/licenses/license-list.html#GPLCompatibleLicenses),
     then you must license your project as GPL-3.0.
-    - You may use [this text for GPL-3.0](https://raw.githubusercontent.com/backdrop-ops/contrib/master/examples/LICENSE=GPLv3.txt).
+    - You may use [this text for GPL-3.0](https://raw.githubusercontent.com/backdrop-ops/contrib/master/examples/LICENSE-GPL-3-0.txt).
     - The GPL-3.0 license will prevent your from one day being included in
     Backdrop core, so please only use this license when necessary.
 - [ ] Maintain the Git history from Drupal 7. See
