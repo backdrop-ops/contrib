@@ -50,13 +50,16 @@ All projects must meet these minimum requirements.
 
 - [ ] Include a README.md file that includes license and maintainer information.
 You can use [this example](https://raw.githubusercontent.com/backdrop-ops/contrib/master/examples/README.md).
-- [ ] Include a LICENSE.txt file that indicates the contributed code is GPL v2
-      (or in some cases, GPLv3).
-  * Please use [this text for GPL v2](https://raw.githubusercontent.com/backdrop-ops/contrib/master/examples/LICENSE.txt).
-  * If your project includes a library that is GPL v3 then you must license your
-    project as GPL v3. The GPL v3 license will prevent your project from being
-    included in Backdrop core in the future, so please only use this license
-    when necessary. You may use [this text for GPL v3](https://raw.githubusercontent.com/backdrop-ops/contrib/master/examples/LICENSE=GPLv3.txt).
+- [ ] Include a LICENSE.txt file that indicates the contributed code is GPL-2.0
+      (or in some cases, GPLv3, please see below).
+  * Please use [this text for GPL-2.0](https://raw.githubusercontent.com/backdrop-ops/contrib/master/examples/LICENSE.txt).
+  * If your project includes a library that is licensed under GPL-3.0, LGPL-3.0,
+    Apache-2.0, AGPL-3, or any other license that the Free Software Foundation
+    has determined to [only be compatible with GPL-3.0](http://www.gnu.org/licenses/license-list.html#GPLCompatibleLicenses),
+    then you must license your project as GPL-3.0.
+    - You may use [this text for GPL-3.0](https://raw.githubusercontent.com/backdrop-ops/contrib/master/examples/LICENSE=GPLv3.txt).
+    - The GPL-3.0 license will prevent your from one day being included in
+    Backdrop core, so please only use this license when necessary.
 - [ ] Maintain the Git history from Drupal 7. See
 [this article](http://tag1consulting.com/blog/how-maintain-contrib-modules-drupal-and-backdrop-same-time-part-2).
 
@@ -72,7 +75,7 @@ By joining the [Backdrop Contributed Project Group](https://github.com/backdrop-
 
 1. You must agree to license your code contributions as GPLv2 or later.
 
-1. Any project you create or maintain must include a copy of the [GPL v2
+1. Any project you create or maintain must include a copy of the [GPL-2.0
    `LICENSE.txt` file](https://github.com/backdrop-ops/contrib/blob/master/examples/LICENSE.txt)
    in the root of your repository. The GPLv2 license applies to all code that
    directly interacts with parts of Backdrop licensed as GPLv2 or later. See the
@@ -87,7 +90,7 @@ By joining the [Backdrop Contributed Project Group](https://github.com/backdrop-
    at the least the following:
     1. A description of the project
     1. Basic documentation
-    1. License information for the project (GPL v2)
+    1. License information for the project (GPL-2.0)
     1. License information for any additional assets (SIL OFL fonts, CC-SA
        images, etc)
     1. A list of the current maintainers for the Backdrop project
