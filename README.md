@@ -161,12 +161,15 @@ When you are ready:
     1. Delete the 'master' branch
        `git push origin --delete master`
 
-1. Tag [a release](https://help.github.com/articles/creating-releases/). You
-   must tag a release in the format of "1.x-1.0.0" for the packaging script to
-   work. You can see right away on the release page if there was an error during
-   the packaging process. If successful, your ported project should appear on
-   the [modules listing page](https://backdropcms.org/modules) or the
-   [themes listing page](https://backdropcms.org/themes) on BackdropCMS.org.
+1. Create [a release](https://help.github.com/articles/creating-releases/) on
+   GitHub. The release name should be in the format of "1.x-1.0.0" for the
+   packaging script to work. Github creates a tag automatically to match the
+   release, so you don't need to create a tag separately. You can see right away
+   on the release page if there was an error during the packaging process. If
+   successful, your ported project should appear on the
+   [modules listing page](https://backdropcms.org/modules), the
+   [themes listing page](https://backdropcms.org/themes), or the
+   [layouts listing page](https://backdropcms.org/layouts) on BackdropCMS.org.
 
 1. Make sure you are subscribed to notifications for the project's issues. The
    GitHub issue queue is where all the communication for your project happens,
