@@ -1,21 +1,17 @@
 Backdrop Contributed Project Group Application
 ==============================================
 
-Interested in joining the growing Backdrop contributor community at
-https://github.com/backdrop-contrib?
+Join the growing Backdrop contributor community at
+https://github.com/backdrop-contrib.
 
-To apply simply create a request as an issue at
+To apply, create a request as an issue in this queue:
 https://github.com/backdrop-ops/contrib/issues/new.
 
-Please note: It is completely optional to post your modules, themes, or layouts
-in the Backdrop contrib group.
-
 If you have started writing or porting a project for Backdrop, please include a
-link to the module, theme, or layout you have written. If you have posted the
-code under your own GitHub account you will be able to easily transfer the
-entire repository to live under
-`https://github.com/backdrop-contrib/[your_project_name]` after joining the
-Backdrop Contributed Project Group.
+link to the module, theme, or layout. If you have posted the code under your
+own GitHub account you will be able to easily transfer the entire repository
+to live under `https://github.com/backdrop-contrib/[your_project_name]` after
+joining the Backdrop Contributed Project Group.
 
 Benefits of joining:
 
@@ -132,7 +128,7 @@ What To Do After Your Application Is Accepted
 ---------------------------------------------
 When you are ready:
 
-1. Clean up your project as much as possible.
+1. Clean up your code so it's ready for community collaboration.
 
 1. If you started your project with a title like "backdrop-port-of-xyz", change
    the name of the project to exactly match the Drupal project (e.g. "xyz").
@@ -161,29 +157,44 @@ When you are ready:
     1. Delete the 'master' branch
        `git push origin --delete master`
 
-1. Tag [a release](https://help.github.com/articles/creating-releases/). You
-   must tag a release in the format of "1.x-1.0.0" for the packaging script to
-   work. You can see right away on the release page if there was an error during
-   the packaging process. If successful, your ported project should appear on
-   the [modules listing page](https://backdropcms.org/modules) or the
-   [themes listing page](https://backdropcms.org/themes) on BackdropCMS.org.
-
 1. Make sure you are subscribed to notifications for the project's issues. The
    GitHub issue queue is where all the communication for your project happens,
    and when new issues are created, you need to know about them and respond in a
    timely manner otherwise your project might be considered abandoned following
    the procedure listed below.
 
-1. If your project is a port of a Drupal project, it's considered a best
-   practice to subscribe to the issue queue on drupal.org. That way you can be
-   updated when issues are fixed. You can then decide if you want any of those
-   commits in your project. Similarly, if you fix bugs or or add new features,
-   please consider letting the maintainer(s) of the original project know about
-   it. It would be even better to post a patch in the Drupal queue for them to
+1. If your project is a port of a Drupal project, it is a best practice to
+   subscribe to the issue queue on drupal.org. That way you can be updated when
+   issues are fixed. You can then decide if you want any of those commits in
+   your project. Similarly, if you fix bugs or or add new features, please
+   consider letting the maintainer(s) of the original project know about it.
+   It would be even better to post a patch in the Drupal queue for them to
    review. If you have found a security issue that applies to both, please try
    to coordinate the release of the fix with the maintainers of the original
    project **through non-public channels** so that potential attackers do not
    take advantage of either Backdrop or Drupal sites.
+
+Releases
+--------
+
+Tag [a release](https://help.github.com/articles/creating-releases/). You must
+tag a release in the format of "1.x-1.0.0" for the packaging script to work.
+You can see right away on the release page if there was an error during the
+packaging process. If successful, your ported project should appear on the
+[modules listing page](https://backdropcms.org/modules) or the
+[themes listing page](https://backdropcms.org/themes) on BackdropCMS.org.
+
+Security Releases
+-----------------
+
+You will need to work with the Backdrop Security Team in order to make a
+security release for your project. Please contact security@backdropcms.org to
+begin this process.
+
+You and the security team will choose a Wednesday to coordinate the release, and
+on that day, when you publish the release on GitHub, someone from the Backdrop
+Security Team will need to update the project release node on backdropcms.org to
+inidciate that a release is a security release.
 
 
 Abandoned Projects
