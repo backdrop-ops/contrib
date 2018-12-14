@@ -124,6 +124,7 @@ Additional Notes For Non-coders
    the same code spot-check process a new contributor needs to undergo at the
    time they add the code.
 
+
 What To Do After Your Application Is Accepted
 ---------------------------------------------
 When you are ready:
@@ -174,6 +175,7 @@ When you are ready:
    project **through non-public channels** so that potential attackers do not
    take advantage of either Backdrop or Drupal sites.
 
+
 Releases
 --------
 
@@ -183,6 +185,7 @@ You can see right away on the release page if there was an error during the
 packaging process. If successful, your ported project should appear on the
 [modules listing page](https://backdropcms.org/modules) or the
 [themes listing page](https://backdropcms.org/themes) on BackdropCMS.org.
+
 
 Security Releases
 -----------------
