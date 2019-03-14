@@ -268,7 +268,7 @@ the project is abadoned.
 - If the maintainer does NOT respond within 2 weeks, you can [create an issue in this repository](https://github.com/backdrop-ops/contrib/issues/new)
   to request that the maintainer's name be removed from the `README.md` file.
   Please include a link to the issue you filed for the project.
-- Please understand that removing all maintainers will hault all forward
+- Please understand that removing all maintainers will halt all forward
   progress for the project. It would be better to...
   * Offer to co-maintain the project with the current maintainer.
   * Offer to take over the project yourself.
