@@ -271,7 +271,7 @@ the project is abadoned.
 - Please understand that removing all maintainers will hault all forward
   progress for the project. It would be better to...
   * Offer to co-maintain the project with the current maintainer.
-  * Offer to take over the project yorself.
+  * Offer to take over the project yourself.
   * Locate another maintainer who would be willing to maintain the project.
 
 If you are unhappy with the speed of progress or the amount of work being done
