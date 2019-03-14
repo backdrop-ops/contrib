@@ -214,7 +214,7 @@ inidciate that a release is a security release.
 The Backdrop Bug Squad
 ----------------------
 
-The `Backdrop Bug Squad` consistes of trusted members of the backdrop-contrib
+The `Backdrop Bug Squad` consists of trusted members of the backdrop-contrib
 group who will help other contributors stay on top of minor bug fixes and User
 Interface improvements.
 
