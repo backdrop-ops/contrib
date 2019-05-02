@@ -13,6 +13,12 @@ Detail in READMEs should be limited to the minimum required for installation and
 getting started. More detailed documentation should be moved to a GitHub wiki
 page: https://github.com/backdrop-contrib/setup/wiki/Documentation.
 
+
+Requirements
+------------
+
+- none
+
 Installation
 ------------
 
@@ -45,13 +51,14 @@ Current Maintainers
 Credits
 -------
 
-- Ported to Backdrop CMS by Betty Boop (https://github.com/username).
-- Originally written for Drupal by Bob Brown (https://github.com/username).
-- Based on Barbara Bailey's MagicalCode project (https://github.com/example).
+- Ported to Backdrop CMS by [Betty Boop](https://github.com/username).
+- Originally written for Drupal by [Bob Brown](https://github.com/username).
+- Based on [The MagicalCode project](https://github.com/example).
+- Inital development sponsored by [MiniCorp](https://minicorp.example.com)
 
 License
 -------
 
-This project is GPL v2 software. See the LICENSE.txt file in this directory for
-complete text.
+This project is GPL v2 software.
+See the LICENSE.txt file in this directory for complete text.
 
