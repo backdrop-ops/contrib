@@ -163,7 +163,7 @@ What To Do After Your Application Is Accepted
        git checkout -b 1.x-1.x
        git push origin 1.x-1.x
        ```
-    1. Go to 'Settings' in the GitHib repo and click 'Branches' in the left
+    1. Go to 'Settings' in the GitHub repo and click 'Branches' in the left
        menu.
     1. Change the default branch from 'master' to '1.x-1.x'.
     1. Delete the 'master' branch
@@ -209,7 +209,7 @@ begin this process.
 You and the security team will choose a Wednesday to coordinate the release, and
 on that day, when you publish the release on GitHub, someone from the Backdrop
 Security Team will need to update the project release node on backdropcms.org to
-inidciate that a release is a security release.
+indicate that a release is a security release.
 
 
 The Backdrop Bug Squad
@@ -223,9 +223,9 @@ Responsibilities include:
 - Reviewing Pull Requests for eligibility.
 - Merging eligible Pull Requests.
 - Communicating with existing maintainers.
-- Createing a new releases if a severe bug has been fixed.
+- Creating a new releases if a severe bug has been fixed.
 
-Fixes eligible inlude:
+Fixes eligible include:
 - Minor Bugs (Fatal errors, PHP notices, validation errors, etc).
 - Minor User Interface changes (typos, spelling, grammar, terminology, etc).
 - Cross-ports of fixes from the original Drupal project (if applicable).
@@ -237,10 +237,10 @@ Fixes NOT eligible include:
 - Any new feature.
 - Any major code change or addition.
 
-The `Backdrop Bug Squad` can merge eligable Pull Requests for any project,
+The `Backdrop Bug Squad` can merge eligible Pull Requests for any project,
 it does not need to be abandoned.
 
-Any eligable Pull Request must be tagged as "Reviewed and Tested By the
+Any eligible Pull Request must be tagged as "Reviewed and Tested By the
 Community" for a period of at least 2 weeks before it can be merged.
 
 You may apply to become a member of the Backdrop Bug Squad. Please
@@ -257,10 +257,10 @@ Abandoned Projects
 A project is considered Abandoned when there is no maintainer listed in the
 `README.md` file.
 
-The ony people who can make changes to an abandoned project are the `Backdrop
+The only people who can make changes to an abandoned project are the `Backdrop
 Security Team` and the `Backdrop Bug Squad`.
 
-An abandoned project will not have any new releases other than a secutity
+An abandoned project will not have any new releases other than a security
 release issued by the `Backdrop Security Team` or a bug-fix release issued
 by the `Backdrop Bug Squad`. A project must have a current maintainer listed in
 the `README.md` file to have a new release containing new features, or any
@@ -272,7 +272,7 @@ Determining Abandoned Projects
 
 If you believe that a project has been abandoned but there is a maintainer
 listed in the `README.md` file, you can open an issue asking the maintainer if
-the project is abadoned.
+the project is abandoned.
 
 - If the maintainer responds within 2 weeks, the project has not been abandoned.
 - If the maintainer does NOT respond within 2 weeks, you can [create an issue in this repository](https://github.com/backdrop-ops/contrib/issues/new)
