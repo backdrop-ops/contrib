@@ -219,36 +219,16 @@ The `Backdrop Bug Squad` consists of trusted members of the backdrop-contrib
 group who will help contributors stay on top of minor bug fixes and User
 Interface improvements.
 
-Responsibilities include:
-- Reviewing Pull Requests for eligibility.
-- Merging eligible Pull Requests.
-- Communicating with existing maintainers.
-- Createing a new releases if a severe bug has been fixed.
-
-Fixes eligible inlude:
-- Minor Bugs (Fatal errors, PHP notices, validation errors, etc).
-- Minor User Interface changes (typos, spelling, grammar, terminology, etc).
-- Cross-ports of fixes from the original Drupal project (if applicable).
-- Any packaging issue preventing the project from being downloaded and installed
-  via the Project Browser.
-- Any change that could be accepted after a feature freeze.
-
-Fixes NOT eligible include:
-- Any new feature.
-- Any major code change or addition.
-
-The `Backdrop Bug Squad` can merge eligable Pull Requests for any project,
-it does not need to be abandoned.
-
-Any eligable Pull Request must be tagged as "Reviewed and Tested By the
-Community" for a period of at least 2 weeks before it can be merged.
+Find out more about the
+[Backdrop bug squad](https://backdropcms.org/contribute/bug-squad) on
+backdropcms.org.
 
 You may apply to become a member of the Backdrop Bug Squad. Please
 [create an issue in this repository](https://github.com/backdrop-ops/contrib/issues/new)
 requesting to join.
 
-The Bug Squad members can be viewed, here:
-https://github.com/orgs/backdrop-ops/teams/bug-squad/members
+GitHub members can can be view The Bug Squad team, here:
+https://github.com/orgs/backdrop-contrib/teams/bug-squad/members
 
 
 Abandoned Projects
