@@ -139,17 +139,13 @@ inidciate that a release is a security release.
 The Backdrop Bug Squad
 ----------------------
 
-The `Backdrop Bug Squad` consists of trusted members of the backdrop-contrib
-group who will help contributors stay on top of minor bug fixes and User
-Interface improvements.
+The [Backdrop Bug Squad](https://backdropcms.org/contribute/bug-squad) is
+authorized to make limited commits to all projects. The team consists only
+of trusted members of the backdrop-contrib group. These people will help
+contributors stay on top of minor bug fixes and User Interface improvements.
 
-Find out more about the
-[Backdrop bug squad](https://backdropcms.org/contribute/bug-squad) on
-backdropcms.org.
-
-You may apply to become a member of the Backdrop Bug Squad. Please
-[create an issue in this repository](https://github.com/backdrop-ops/contrib/issues/new)
-requesting to join.
+You may apply to become a member of the Backdrop Bug Squad by
+[create an issue in the contrib queue](https://github.com/backdrop-ops/contrib/issues/new?assignees=&labels=Bug+Squad+Application&template=bug-squad-application.md&title=Bug+Squad+Application).
 
 GitHub members can can be view The Bug Squad team, here:
 https://github.com/orgs/backdrop-contrib/teams/bug-squad/members
