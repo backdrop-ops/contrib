@@ -1,8 +1,8 @@
 ---
 name: Security Team Application
-about: " Apply to join the Backdrop Security Team"
+about: Would you like  to join the Backdrop Security Team?
 title: Security Team Application
-labels: ''
+labels: Security Team Application
 assignees: ''
 
 ---

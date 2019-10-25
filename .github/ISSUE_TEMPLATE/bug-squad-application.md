@@ -1,6 +1,6 @@
 ---
 name: Bug Squad Application
-about: Apply to join the Backdrop Bug Squad
+about: Would you like to join the Backdrop Bug Squad?
 title: Bug Squad Application
 labels: Bug Squad Application
 assignees: ''
