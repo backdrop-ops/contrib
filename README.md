@@ -153,10 +153,7 @@ direclty to any project, and issue a new security release.
 
 You may apply to become a member of the Backdrop Security Team by
 [createing an issue](https://github.com/backdrop-ops/contrib/issues/new?assignees=&labels=Bug+Squad+Application&template=bug-squad-application.md&title=Bug+Squad+Application)
-in the contrib queue.
-
-GitHub members can view The Security team, here:
-https://github.com/orgs/backdrop-contrib/teams/security/members
+in the contrib queue. GitHub members can view a list of people on the [Security team](https://github.com/orgs/backdrop-contrib/teams/security/members).
 
 
 The Backdrop Bug Squad
@@ -172,7 +169,4 @@ tested by the comminuty" for a period of at least two weeks.
 
 You may apply to become a member of the Backdrop Bug Squad by
 [creating an issue](https://github.com/backdrop-ops/contrib/issues/new?assignees=&labels=Bug+Squad+Application&template=bug-squad-application.md&title=Bug+Squad+Application)
-in the contrib queue.
-
-GitHub members can view The Bug Squad team, here:
-https://github.com/orgs/backdrop-contrib/teams/bug-squad/members
+in the contrib queue. GitHub members can view a list of people on the [Bug Squad](https://github.com/orgs/backdrop-contrib/teams/bug-squad/members).
