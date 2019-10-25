@@ -139,7 +139,7 @@ inidciate that a release is a security release.
 The Backdrop Bug Squad
 ----------------------
 
-The [Backdrop Bug Squad](https://backdropcms.org/contribute/bug-squad) is
+The [Backdrop Bug Squad](https://backdropcms.org/leadership/bug-squad) is
 authorized to make limited commits to all projects. The team consists only
 of trusted members of the backdrop-contrib group. These people will help
 contributors stay on top of minor bug fixes and User Interface improvements.
@@ -151,70 +151,3 @@ GitHub members can can be view The Bug Squad team, here:
 https://github.com/orgs/backdrop-contrib/teams/bug-squad/members
 
 
-Abandoned Projects
-------------------
-
-A project is considered Abandoned when there is no maintainer listed in the
-`README.md` file.
-
-The ony people who can make changes to an abandoned project are the `Backdrop
-Security Team` and the `Backdrop Bug Squad`.
-
-An abandoned project will not have any new releases other than a secutity
-release issued by the `Backdrop Security Team` or a bug-fix release issued
-by the `Backdrop Bug Squad`. A project must have a current maintainer listed in
-the `README.md` file to have a new release containing new features, or any
-substantial changes.
-
-
-Determining Abandoned Projects
-------------------------------
-
-If you believe that a project has been abandoned but there is a maintainer
-listed in the `README.md` file, you can open an issue asking the maintainer if
-the project is abadoned.
-
-- If the maintainer responds within 2 weeks, the project has not been abandoned.
-- If the maintainer does NOT respond within 2 weeks, you can [create an issue in this repository](https://github.com/backdrop-ops/contrib/issues/new)
-  to request that the maintainer's name be removed from the `README.md` file.
-  Please include a link to the issue you filed for the project.
-- Please understand that removing all maintainers will halt all forward
-  progress for the project, as no new releases will be allowed until there is at
-  least one maintainer listed again.
-- Other options include:
-  * Offer to co-maintain the project with the current maintainer.
-  * Locate another person who would be willing to co-maintain the project.
-  * Offer to take over maintainership of the project.
-  * Locate another person who would be willing to take over maintainership of
-    the project.
-
-If you are unhappy with the speed of progress or the amount of work being done
-on a particular project, you might want to offer to co-maintain the project,
-at least for a little while, to help move things along.
-
-
-Adopting Abandoned Projects
----------------------------
-
-You may apply to adopt an abandoned project. The procedure is as follows:
-
-1. If you haven't already, please join the Backdrop Contrib group by submitting
-   an application (see above).
-
-1. File an issue with the current project requesting to help maintain the
-   project.
-
-  - If written permission is granted by a current maintainer, create a PR that
-    adds your name to the README.md file in the list of maintainers.
-  - If the project does not have a listed maintainer, or if a current maintainer
-    does not respond within 2 weeks, [create an issue in this repository](https://github.com/backdrop-ops/contrib/issues/new)
-    to take over the project. Please include a link to the issue you filed for
-    the abandoned project.
-
-1. After confirming the project has been abandoned, a Backdrop Contrib
-   administrator will add your name to the list of maintainers in that project's
-   README.md file.
-
-1. You may now maintain the project directly as though given permission by the
-   current maintainer. Likewise, you may now grant permission for others to
-   co-maintain the project as well.
