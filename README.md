@@ -97,7 +97,6 @@ By joining the [Backdrop Contributed Project Group](https://github.com/backdrop-
    Contrib Administrator without your explicit consent, to add a new maintainer.
 
 Additional Notes For Non-coders
--------------------------------
 
 1. If an applicant is not (yet) a coder but would still like access to the
    contrib group (for example, for updating documentation or managing issue
@@ -111,57 +110,6 @@ Additional Notes For Non-coders
    wish to author new code in the Backdrop contrib group, they will also undergo
    the same code spot-check process a new contributor needs to undergo at the
    time they add the code.
-
-
-What To Do After Your Application Is Accepted
----------------------------------------------
-
-1. Clean up your code so it's ready for community collaboration.
-
-1. If you started your project with a title like `backdrop-port-of-xyz`, change
-   the name of the project to exactly match the Drupal project (e.g. `xyz`).
-
-1. Transfer the project to the backdrop-contrib organization following the steps
-   mentioned [in this post](https://help.github.com/articles/transferring-a-repository-owned-by-your-personal-account/#transferring-to-an-organization).
-    1. After clicking 'I understand, transfer this repository', you'll be shown
-       the 'Team Access' screen where you choose who will have access to this
-       repo. Tick both 'Authors' and 'Security', then click 'Transfer'.
-    1. Visit the repository's new page, and go to 'Settings'.
-    1. Click 'Collaborators & teams' in the left menu.
-    1. Under 'Teams', set 'Authors' to Admin and 'Security' to Write.
-
-1. If your repository has a 'master' branch, you'll need to create a new
-   '1.x-1.x' branch to replace it:
-    1. Create the new '1.x-1.x' branch
-       ```
-       git checkout master
-       git pull origin master
-       git checkout -b 1.x-1.x
-       git push origin 1.x-1.x
-       ```
-    1. Go to 'Settings' in the GitHib repo and click 'Branches' in the left
-       menu.
-    1. Change the default branch from 'master' to '1.x-1.x'.
-    1. Delete the 'master' branch
-       `git push origin --delete master`
-
-1. Make sure you are subscribed to notifications for the project's issues. The
-   GitHub issue queue is where all the communication for your project happens,
-   and when new issues are created, you need to know about them and respond in a
-   timely manner otherwise your project might be considered abandoned following
-   the procedure listed below.
-
-1. If your project is a port of a Drupal project, it is a best practice to
-   subscribe to the issue queue on drupal.org. That way you can be updated when
-   issues are fixed. You can then decide if you want any of those commits in
-   your project.
-   * If you fix bugs or or add new features, please consider letting
-     the maintainer(s) of the original project know about it. You might post
-     your patches in the Drupal queue for the other project to consider.
-   * If you have found a security issue that applies to both projects, please
-     coordinate the release of the fix with the maintainers of the original
-     project **through non-public channels** so that potential attackers can not
-     take advantage of either Backdrop or Drupal sites.
 
 
 Releases
