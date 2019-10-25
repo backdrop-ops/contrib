@@ -1,15 +1,13 @@
 Backdrop Contributed Project Group Application
 ==============================================
 
-Join the growing Backdrop contributor community at
-https://github.com/backdrop-contrib.
-
 [Apply to join](https://github.com/backdrop-ops/contrib#backdrop-contributed-project-group-application)
+the growing [Backdrop contributor community](https://github.com/backdrop-contrib).
 
-If you have started writing or porting a project for Backdrop, please include a
-link to the module, theme, or layout under your own GitHub account. You will be
-able to easily transfer the entire repository to the backdrop-contrib GitHub
-group after you have access to the Backdrop Contributed Project Group.
+If you have started writing or porting a project for Backdrop, please post the
+module, theme, or layout under your own GitHub account, and provide a link in
+your application. You will be able to easily transfer the entire repository to
+the backdrop-contrib GitHub group after you are a member.
 
 You can learn more about
 [the application process](https://backdropcms.org/contribute/add-ons)
