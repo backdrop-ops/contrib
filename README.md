@@ -4,38 +4,16 @@ Backdrop Contributed Project Group Application
 Join the growing Backdrop contributor community at
 https://github.com/backdrop-contrib.
 
-To apply, create a request as an issue in this queue:
-https://github.com/backdrop-ops/contrib/issues/new.
+[Apply to join](https://github.com/backdrop-ops/contrib#backdrop-contributed-project-group-application)
 
 If you have started writing or porting a project for Backdrop, please include a
 link to the module, theme, or layout under your own GitHub account. You will be
 able to easily transfer the entire repository to the backdrop-contrib GitHub
 group after you have access to the Backdrop Contributed Project Group.
 
-Benefits of joining:
-
-- Benefit from official security procedures for keeping your code healthy.
-- Version information packaged into GitHub download automatically.
-- Co-maintain your project with other Backdrop contrib developers.
-- Share the responsibilities of managing all the issue queues.
-- Collaborate with the larger Backdrop community.
-
-Requirements to join:
-
-- You must agree to the Backdrop Contributed Project Agreement, below.
-- You must either submit your first Backdrop project for a quick spot-check /
-  review, or submit links to PRs or commits to existing Backdrop projects.
-- If you are not submitting code for review at the time of application (for the
-  purposes of managing issues) you must have at least one recommendation from a
-  person who is already a member of the Backdrop contrib group.
-
-Rejected applications:
-
-- No rejected application to the Backdrop contrib group is final.
-- In the rare case that your application is rejected, you are welcome to reapply
-  after a waiting period of 1 month.
-- After 1 month has passed, please open a new issue in the queue and try again.
-- Please carefully review the reason for rejection before reapplying.
+You can learn more about
+[the application process](https://backdropcms.org/contribute/add-ons)
+on backdropcms.org.
 
 
 New Project Checklist
