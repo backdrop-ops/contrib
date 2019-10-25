@@ -71,8 +71,8 @@ By joining the [Backdrop Contributed Project Group](https://github.com/backdrop-
 1. Any project you create or maintain will have the GitHub issue tracker enabled
    for official communication.
 
-1. You will work with the `Backdrop Security Team` to address any vulnerabilities
-   in any project you create or maintain, if necessary.
+1. You will work with the `Backdrop Security Team` to address any
+   vulnerabilities in any project you create or maintain, if necessary.
 
    * If you are not available the day a security release is needed (usually a
      Wednesday), you understand that the `Backdrop Security Team` may create a
@@ -81,10 +81,10 @@ By joining the [Backdrop Contributed Project Group](https://github.com/backdrop-
 1. You will work with the Backdrop Community to review issues in the queue
    and submitted Pull Requests.
 
-   * If your project has Pull Requests for issues that are tagged "Bug" that have
-     been marked "Reviewed and Tested By the Community" for a period of 2 weeks
-     or more, a member of the `Backdrop Bug Squad` may merge the pull request
-     on your behalf.
+   * If your project has Pull Requests for issues that are tagged "Bug" that
+     have been marked "Reviewed and Tested By the Community" for a period of 2
+     weeks or more, a member of the `Backdrop Bug Squad` may merge the pull
+     request on your behalf.
    * If the bug is severe enough the `Backdrop Bug Squad` may also create a new
      release for your project.
 
@@ -115,12 +115,15 @@ Additional Notes For Non-coders
 Releases
 --------
 
-Tag [a release](https://help.github.com/articles/creating-releases/). You must
-tag a release in the format of "1.x-1.0.0" for the packaging script to work.
-You can see right away on the release page if there was an error during the
-packaging process. If successful, your ported project should appear on the
-[modules listing page](https://backdropcms.org/modules) or the
-[themes listing page](https://backdropcms.org/themes) on BackdropCMS.org.
+You must tag [releases](https://help.github.com/articles/creating-releases/) in
+the format of "1.x-a.b.c" for the packaging script to work. You will see right
+away if there was an error during the packaging process, as a notice will appear
+on the release page.
+
+When successful, your project will appear almost immediately on the
+[modules page](https://backdropcms.org/modules),
+[themes page](https://backdropcms.org/themes) or
+[layouts page](https://backdropcms.org/themes) on backdropcms.org.
 
 
 Security Releases
@@ -136,18 +139,40 @@ Security Team will need to update the project release node on backdropcms.org to
 inidciate that a release is a security release.
 
 
+The Backdrop Security Team
+--------------------------
+
+**The [Backdrop Security Team](https://backdropcms.org/leadership/security-team)
+is authorized to make limited commits to all projects.** The team consists only
+of trusted members of the backdrop-contrib group with security experience.
+
+This team will work together with Backdrop maintainers to resolve potential
+security issues. In the event that a maintainer can't be reached, or if an issue
+is deemed sufficiently critical, the security team is authorized to commit
+direclty to any project, and issue a new security release.
+
+You may apply to become a member of the Backdrop Security Team by
+[createing an issue](https://github.com/backdrop-ops/contrib/issues/new?assignees=&labels=Bug+Squad+Application&template=bug-squad-application.md&title=Bug+Squad+Application)
+in the contrib queue.
+
+GitHub members can view The Security team, here:
+https://github.com/orgs/backdrop-contrib/teams/security/members
+
+
 The Backdrop Bug Squad
 ----------------------
 
-The [Backdrop Bug Squad](https://backdropcms.org/leadership/bug-squad) is
-authorized to make limited commits to all projects. The team consists only
-of trusted members of the backdrop-contrib group. These people will help
-contributors stay on top of minor bug fixes and User Interface improvements.
+**The [Backdrop Bug Squad](https://backdropcms.org/leadership/bug-squad) is
+authorized to make limited commits to all projects.** The team consists only of
+trusted members of the backdrop-contrib group.
+
+This team is intended to help contributors stay on top of minor bug fixes and
+User Interface improvements by merging issues that have been "Reviewed and
+tested by the comminuty" for a period of at least two weeks.
 
 You may apply to become a member of the Backdrop Bug Squad by
-[create an issue in the contrib queue](https://github.com/backdrop-ops/contrib/issues/new?assignees=&labels=Bug+Squad+Application&template=bug-squad-application.md&title=Bug+Squad+Application).
+[creating an issue](https://github.com/backdrop-ops/contrib/issues/new?assignees=&labels=Bug+Squad+Application&template=bug-squad-application.md&title=Bug+Squad+Application)
+in the contrib queue.
 
-GitHub members can can be view The Bug Squad team, here:
+GitHub members can view The Bug Squad team, here:
 https://github.com/orgs/backdrop-contrib/teams/bug-squad/members
-
-
