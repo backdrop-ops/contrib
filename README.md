@@ -1,7 +1,7 @@
 Backdrop Contributed Project Group Application
 ==============================================
 
-[Apply to join](https://github.com/backdrop-ops/contrib#backdrop-contributed-project-group-application)
+[Apply to join](https://github.com/backdrop-ops/contrib/issues/new?assignees=klonos&labels=Maintainer+application&template=maintainer-application.md&title=Application+to+join%3A+%5BYOUR+GITHUB+NAME%5D)
 the growing [Backdrop contributor community](https://github.com/backdrop-contrib).
 
 If you have started writing or porting a project for Backdrop, please post the
