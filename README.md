@@ -1,41 +1,17 @@
 Backdrop Contributed Project Group Application
 ==============================================
 
-Join the growing Backdrop contributor community at
-https://github.com/backdrop-contrib.
+[Apply to join](https://github.com/backdrop-ops/contrib#backdrop-contributed-project-group-application)
+the growing [Backdrop contributor community](https://github.com/backdrop-contrib).
 
-To apply, create a request as an issue in this queue:
-https://github.com/backdrop-ops/contrib/issues/new.
+If you have started writing or porting a project for Backdrop, please post the
+module, theme, or layout under your own GitHub account, and provide a link in
+your application. You will be able to easily transfer the entire repository to
+the backdrop-contrib GitHub group after you are a member.
 
-If you have started writing or porting a project for Backdrop, please include a
-link to the module, theme, or layout under your own GitHub account. You will be
-able to easily transfer the entire repository to the backdrop-contrib GitHub
-group after you have access to the Backdrop Contributed Project Group.
-
-Benefits of joining:
-
-- Benefit from official security procedures for keeping your code healthy.
-- Version information packaged into GitHub download automatically.
-- Co-maintain your project with other Backdrop contrib developers.
-- Share the responsibilities of managing all the issue queues.
-- Collaborate with the larger Backdrop community.
-
-Requirements to join:
-
-- You must agree to the Backdrop Contributed Project Agreement, below.
-- You must either submit your first Backdrop project for a quick spot-check /
-  review, or submit links to PRs or commits to existing Backdrop projects.
-- If you are not submitting code for review at the time of application (for the
-  purposes of managing issues) you must have at least one recommendation from a
-  person who is already a member of the Backdrop contrib group.
-
-Rejected applications:
-
-- No rejected application to the Backdrop contrib group is final.
-- In the rare case that your application is rejected, you are welcome to reapply
-  after a waiting period of 1 month.
-- After 1 month has passed, please open a new issue in the queue and try again.
-- Please carefully review the reason for rejection before reapplying.
+You can learn more about
+[the application process](https://backdropcms.org/contribute/add-ons)
+on backdropcms.org.
 
 
 New Project Checklist
@@ -95,8 +71,8 @@ By joining the [Backdrop Contributed Project Group](https://github.com/backdrop-
 1. Any project you create or maintain will have the GitHub issue tracker enabled
    for official communication.
 
-1. You will work with the `Backdrop Security Team` to address any vulnerabilities
-   in any project you create or maintain, if necessary.
+1. You will work with the `Backdrop Security Team` to address any
+   vulnerabilities in any project you create or maintain, if necessary.
 
    * If you are not available the day a security release is needed (usually a
      Wednesday), you understand that the `Backdrop Security Team` may create a
@@ -105,10 +81,10 @@ By joining the [Backdrop Contributed Project Group](https://github.com/backdrop-
 1. You will work with the Backdrop Community to review issues in the queue
    and submitted Pull Requests.
 
-   * If your project has Pull Requests for issues that are tagged "Bug" that have
-     been marked "Reviewed and Tested By the Community" for a period of 2 weeks
-     or more, a member of the `Backdrop Bug Squad` may merge the pull request
-     on your behalf.
+   * If your project has Pull Requests for issues that are tagged "Bug" that
+     have been marked "Reviewed and Tested By the Community" for a period of 2
+     weeks or more, a member of the `Backdrop Bug Squad` may merge the pull
+     request on your behalf.
    * If the bug is severe enough the `Backdrop Bug Squad` may also create a new
      release for your project.
 
@@ -121,7 +97,6 @@ By joining the [Backdrop Contributed Project Group](https://github.com/backdrop-
    Contrib Administrator without your explicit consent, to add a new maintainer.
 
 Additional Notes For Non-coders
--------------------------------
 
 1. If an applicant is not (yet) a coder but would still like access to the
    contrib group (for example, for updating documentation or managing issue
@@ -137,66 +112,18 @@ Additional Notes For Non-coders
    time they add the code.
 
 
-What To Do After Your Application Is Accepted
----------------------------------------------
-
-1. Clean up your code so it's ready for community collaboration.
-
-1. If you started your project with a title like `backdrop-port-of-xyz`, change
-   the name of the project to exactly match the Drupal project (e.g. `xyz`).
-
-1. Transfer the project to the backdrop-contrib organization following the steps
-   mentioned [in this post](https://help.github.com/articles/transferring-a-repository-owned-by-your-personal-account/#transferring-to-an-organization).
-    1. After clicking 'I understand, transfer this repository', you'll be shown
-       the 'Team Access' screen where you choose who will have access to this
-       repo. Tick both 'Authors' and 'Security', then click 'Transfer'.
-    1. Visit the repository's new page, and go to 'Settings'.
-    1. Click 'Collaborators & teams' in the left menu.
-    1. Under 'Teams', set 'Authors' to Admin and 'Security' to Write.
-
-1. If your repository has a 'master' branch, you'll need to create a new
-   '1.x-1.x' branch to replace it:
-    1. Create the new '1.x-1.x' branch
-       ```
-       git checkout master
-       git pull origin master
-       git checkout -b 1.x-1.x
-       git push origin 1.x-1.x
-       ```
-    1. Go to 'Settings' in the GitHub repo and click 'Branches' in the left
-       menu.
-    1. Change the default branch from 'master' to '1.x-1.x'.
-    1. Delete the 'master' branch
-       `git push origin --delete master`
-
-1. Make sure you are subscribed to notifications for the project's issues. The
-   GitHub issue queue is where all the communication for your project happens,
-   and when new issues are created, you need to know about them and respond in a
-   timely manner otherwise your project might be considered abandoned following
-   the procedure listed below.
-
-1. If your project is a port of a Drupal project, it is a best practice to
-   subscribe to the issue queue on drupal.org. That way you can be updated when
-   issues are fixed. You can then decide if you want any of those commits in
-   your project.
-   * If you fix bugs or or add new features, please consider letting
-     the maintainer(s) of the original project know about it. You might post
-     your patches in the Drupal queue for the other project to consider.
-   * If you have found a security issue that applies to both projects, please
-     coordinate the release of the fix with the maintainers of the original
-     project **through non-public channels** so that potential attackers can not
-     take advantage of either Backdrop or Drupal sites.
-
-
 Releases
 --------
 
-Tag [a release](https://help.github.com/articles/creating-releases/). You must
-tag a release in the format of "1.x-1.0.0" for the packaging script to work.
-You can see right away on the release page if there was an error during the
-packaging process. If successful, your ported project should appear on the
-[modules listing page](https://backdropcms.org/modules) or the
-[themes listing page](https://backdropcms.org/themes) on BackdropCMS.org.
+You must tag [releases](https://help.github.com/articles/creating-releases/) in
+the format of "1.x-a.b.c" for the packaging script to work. You will see right
+away if there was an error during the packaging process, as a notice will appear
+on the release page.
+
+When successful, your project will appear almost immediately on the
+[modules page](https://backdropcms.org/modules),
+[themes page](https://backdropcms.org/themes) or
+[layouts page](https://backdropcms.org/themes) on backdropcms.org.
 
 
 Security Releases
@@ -212,109 +139,34 @@ Security Team will need to update the project release node on backdropcms.org to
 indicate that a release is a security release.
 
 
+The Backdrop Security Team
+--------------------------
+
+**The [Backdrop Security Team](https://backdropcms.org/leadership/security-team)
+is authorized to make limited commits to all projects.** The team consists only
+of trusted members of the backdrop-contrib group with security experience.
+
+This team will work together with Backdrop maintainers to resolve potential
+security issues. In the event that a maintainer can't be reached, or if an issue
+is deemed sufficiently critical, the security team is authorized to commit
+direclty to any project, and issue a new security release.
+
+You may apply to become a member of the Backdrop Security Team by
+[createing an issue](https://github.com/backdrop-ops/contrib/issues/new?assignees=&labels=Bug+Squad+Application&template=bug-squad-application.md&title=Bug+Squad+Application)
+in the contrib queue. GitHub members can view a list of [people on the Security team](https://github.com/orgs/backdrop-contrib/teams/security/members).
+
+
 The Backdrop Bug Squad
 ----------------------
 
-The `Backdrop Bug Squad` consists of trusted members of the backdrop-contrib
-group who will help contributors stay on top of minor bug fixes and User
-Interface improvements.
+**The [Backdrop Bug Squad](https://backdropcms.org/leadership/bug-squad) is
+authorized to make limited commits to all projects.** The team consists only of
+trusted members of the backdrop-contrib group.
 
-Responsibilities include:
-- Reviewing Pull Requests for eligibility.
-- Merging eligible Pull Requests.
-- Communicating with existing maintainers.
-- Creating a new releases if a severe bug has been fixed.
+This team is intended to help contributors stay on top of minor bug fixes and
+User Interface improvements by merging issues that have been "Reviewed and
+tested by the comminuty" for a period of at least two weeks.
 
-Fixes eligible include:
-- Minor Bugs (Fatal errors, PHP notices, validation errors, etc).
-- Minor User Interface changes (typos, spelling, grammar, terminology, etc).
-- Cross-ports of fixes from the original Drupal project (if applicable).
-- Any packaging issue preventing the project from being downloaded and installed
-  via the Project Browser.
-- Any change that could be accepted after a feature freeze.
-
-Fixes NOT eligible include:
-- Any new feature.
-- Any major code change or addition.
-
-The `Backdrop Bug Squad` can merge eligible Pull Requests for any project,
-it does not need to be abandoned.
-
-Any eligible Pull Request must be tagged as "Reviewed and Tested By the
-Community" for a period of at least 2 weeks before it can be merged.
-
-You may apply to become a member of the Backdrop Bug Squad. Please
-[create an issue in this repository](https://github.com/backdrop-ops/contrib/issues/new)
-requesting to join.
-
-The Bug Squad members can be viewed, here:
-https://github.com/orgs/backdrop-ops/teams/bug-squad/members
-
-
-Abandoned Projects
-------------------
-
-A project is considered Abandoned when there is no maintainer listed in the
-`README.md` file.
-
-The only people who can make changes to an abandoned project are the `Backdrop
-Security Team` and the `Backdrop Bug Squad`.
-
-An abandoned project will not have any new releases other than a security
-release issued by the `Backdrop Security Team` or a bug-fix release issued
-by the `Backdrop Bug Squad`. A project must have a current maintainer listed in
-the `README.md` file to have a new release containing new features, or any
-substantial changes.
-
-
-Determining Abandoned Projects
-------------------------------
-
-If you believe that a project has been abandoned but there is a maintainer
-listed in the `README.md` file, you can open an issue asking the maintainer if
-the project is abandoned.
-
-- If the maintainer responds within 2 weeks, the project has not been abandoned.
-- If the maintainer does NOT respond within 2 weeks, you can [create an issue in this repository](https://github.com/backdrop-ops/contrib/issues/new)
-  to request that the maintainer's name be removed from the `README.md` file.
-  Please include a link to the issue you filed for the project.
-- Please understand that removing all maintainers will halt all forward
-  progress for the project, as no new releases will be allowed until there is at
-  least one maintainer listed again.
-- Other options include:
-  * Offer to co-maintain the project with the current maintainer.
-  * Locate another person who would be willing to co-maintain the project.
-  * Offer to take over maintainership of the project.
-  * Locate another person who would be willing to take over maintainership of
-    the project.
-
-If you are unhappy with the speed of progress or the amount of work being done
-on a particular project, you might want to offer to co-maintain the project,
-at least for a little while, to help move things along.
-
-
-Adopting Abandoned Projects
----------------------------
-
-You may apply to adopt an abandoned project. The procedure is as follows:
-
-1. If you haven't already, please join the Backdrop Contrib group by submitting
-   an application (see above).
-
-1. File an issue with the current project requesting to help maintain the
-   project.
-
-  - If written permission is granted by a current maintainer, create a PR that
-    adds your name to the README.md file in the list of maintainers.
-  - If the project does not have a listed maintainer, or if a current maintainer
-    does not respond within 2 weeks, [create an issue in this repository](https://github.com/backdrop-ops/contrib/issues/new)
-    to take over the project. Please include a link to the issue you filed for
-    the abandoned project.
-
-1. After confirming the project has been abandoned, a Backdrop Contrib
-   administrator will add your name to the list of maintainers in that project's
-   README.md file.
-
-1. You may now maintain the project directly as though given permission by the
-   current maintainer. Likewise, you may now grant permission for others to
-   co-maintain the project as well.
+You may apply to become a member of the Backdrop Bug Squad by
+[creating an issue](https://github.com/backdrop-ops/contrib/issues/new?assignees=&labels=Bug+Squad+Application&template=bug-squad-application.md&title=Bug+Squad+Application)
+in the contrib queue. GitHub members can view a list of [people on the Bug Squad](https://github.com/orgs/backdrop-contrib/teams/bug-squad/members).

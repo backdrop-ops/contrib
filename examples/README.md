@@ -39,19 +39,20 @@ https://github.com/backdrop-contrib/foo-project/issues.
 Current Maintainers
 -------------------
 
-- John Smith (https://github.com/username).
-- Jane Smith (https://github.com/username).
+- [John Smith](https://github.com/username).
+- [Jane Smith](https://github.com/username).
 
 Credits
 -------
 
-- Ported to Backdrop CMS by Betty Boop (https://github.com/username).
-- Originally written for Drupal by Bob Brown (https://github.com/username).
-- Based on Barbara Bailey's MagicalCode project (https://github.com/example).
+- Ported to Backdrop CMS by [Betty Boop](https://github.com/username).
+- Originally written for Drupal by [Bob Brown](https://github.com/username).
+- Based on the [MagicalCode project](https://github.com/example).
+- Sponsored by [TechNoCorp](https://example.com)
 
 License
 -------
 
-This project is GPL v2 software. See the LICENSE.txt file in this directory for
-complete text.
+This project is GPL v2 software. 
+See the LICENSE.txt file in this directory for complete text.
 
