@@ -136,7 +136,7 @@ begin this process.
 You and the security team will choose a Wednesday to coordinate the release, and
 on that day, when you publish the release on GitHub, someone from the Backdrop
 Security Team will need to update the project release node on backdropcms.org to
-inidciate that a release is a security release.
+indicate that a release is a security release.
 
 
 The Backdrop Security Team
