@@ -11,7 +11,7 @@ assignees: ''
 I hate bugs!
 
 **Please link to at least 1 GitHub pull request you have filed**
-<!-- example: https://github.com/backdrop/backdrop/pull/2929 -->
+https://github.com/backdrop-contrib/foo/pull/123
 
-**(Optional) Please link to at least 1 Backdrop project you have contributed to**
-<!-- example: https://github.com/backdrop-ops/contrib -->
+**(Optional) Please link to at least 1 Backdrop project you help maintain**
+https://github.com/backdrop-contrib/foo
