@@ -23,7 +23,7 @@ Hello and welcome to the contrib application process! We're happy to have you :)
 <!-- example: Forum Access -->
 
 **(Optional) Post a link here to an issue in the drupal.org queue notifying the Drupal 7 maintainers that you are working on a Backdrop port of their project**
-#example: https://www.drupal.org/project/forum_access/issues/3070491
+<!-- example: https://www.drupal.org/project/forum_access/issues/3070491 -->
 
 **Post a link to your new Backdrop project under your own GitHub account (option #1)**
 <!-- example: https://github.com/jenlampton/forum_access -->
