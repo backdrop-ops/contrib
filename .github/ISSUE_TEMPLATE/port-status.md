@@ -19,4 +19,4 @@ https://www.drupal.org/project/aberdeen/issues/3091971
 **Do you need assistance with this port?**
 Yes/No
 
-# Please return to this issue when complete, and change the label to "Port complete".
+# Please return to this issue and add a comment when the repo has been added to https://github.com/backdrop-contrib, or when there is an initial release.
