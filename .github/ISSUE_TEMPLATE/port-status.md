@@ -8,15 +8,15 @@ assignees: ''
 ---
 
 **Name of the module, theme, or layout you are working on**
-Forum Access
+<!-- example: Forum Access -->
 
 **Link to the drupal.org module, theme, or layout**
-https://www.drupal.org/project/forum_access
+<!-- example: https://www.drupal.org/project/forum_access -->
 
-**(Optional) Link to the drupal.org issue where you notified the maintainer(s) of this port**
-https://www.drupal.org/project/aberdeen/issues/3091971
+**(Optional) Link to the drupal.org issue where you notified the Drupal maintainer(s) of this port**
+<!-- example: https://www.drupal.org/project/aberdeen/issues/3091971 -->
 
 **Do you need assistance with this port?**
 Yes/No
 
-# Please return to this issue and add a comment when the repo has been added to https://github.com/backdrop-contrib, or when there is an initial release.
+<!-- example: Please return to this issue and add a comment when the repository has been added to https://github.com/backdrop-contrib, or when there is an initial release. -->
