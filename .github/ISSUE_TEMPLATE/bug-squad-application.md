@@ -10,8 +10,8 @@ assignees: ''
 **Why do you want to join the bug squad?**
 I hate bugs!
 
-**Please link to at least 1 pull request you have filed**
-https://github.com/backdrop/backdrop/pull/2929
+**Please link to at least 1 GitHub pull request you have filed**
+<!-- example: https://github.com/backdrop/backdrop/pull/2929 -->
 
-**(Optional) Please link to at least 1 Backdrop project you maintain**
-https://github.com/backdrop-ops/contrib
+**(Optional) Please link to at least 1 Backdrop project you have contributed to**
+<!-- example: https://github.com/backdrop-ops/contrib -->
