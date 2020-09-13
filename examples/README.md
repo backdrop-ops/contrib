@@ -48,14 +48,14 @@ https://github.com/backdrop-contrib/foo-project/issues.
 Current Maintainers
 -------------------
 
-- [John Smith](https://github.com/username).
-- [Jane Smith](https://github.com/username).
+- [Chris Brown](https://github.com/username).
+- [Pat Smith](https://github.com/username).
 
 Credits
 -------
 
-- Ported to Backdrop CMS by [Betty Boop](https://github.com/username).
-- Originally written for Drupal by [Bob Brown](https://github.com/username).
+- Ported to Backdrop CMS by [Alex Baker](https://github.com/username).
+- Originally written for Drupal by [Taylor Young](https://github.com/username).
 - Based on the [MagicalCode project](https://github.com/example).
 - Sponsored by [TechNoCorp](https://example.com)
 
