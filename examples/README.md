@@ -50,6 +50,7 @@ Current Maintainers
 
 - [Chris Brown](https://github.com/username).
 - [Pat Smith](https://github.com/username).
+- Seeking additional maintainers.
 
 Credits
 -------
