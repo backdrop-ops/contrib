@@ -13,6 +13,15 @@ Detail in READMEs should be limited to the minimum required for installation and
 getting started. More detailed documentation should be moved to a GitHub wiki
 page: https://github.com/backdrop-contrib/setup/wiki/Documentation.
 
+
+Requirements
+------------
+
+This module requires that the following modules are also enabled:
+
+ * [Bar](https://github.com/backdrop-contrib/bar)
+ * [Baz](https://github.com/backdrop-contrib/baz)
+
 Installation
 ------------
 
