@@ -152,7 +152,7 @@ is deemed sufficiently critical, the security team is authorized to commit
 direclty to any project, and issue a new security release.
 
 You may apply to become a member of the Backdrop Security Team by
-[createing an issue](https://github.com/backdrop-ops/contrib/issues/new?assignees=&labels=Bug+Squad+Application&template=bug-squad-application.md&title=Bug+Squad+Application)
+[creating an issue](https://github.com/backdrop-ops/contrib/issues/new?assignees=&labels=Bug+Squad+Application&template=bug-squad-application.md&title=Bug+Squad+Application)
 in the contrib queue. GitHub members can view a list of [people on the Security team](https://github.com/orgs/backdrop-contrib/teams/security/members).
 
 
