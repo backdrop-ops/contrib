@@ -11,13 +11,15 @@ line of this paragraph is 80 characters for reference.)
 
 Detail in READMEs should be limited to the minimum required for installation and
 getting started. More detailed documentation should be moved to a GitHub wiki
-page: https://github.com/backdrop-contrib/setup/wiki/Documentation.
-
+page, for example, https://github.com/backdrop-contrib/setup/wiki/Documentation.
 
 Requirements
 ------------
 
-- none
+This module requires that the following modules are also enabled:
+
+ * [Bar](https://github.com/backdrop-contrib/bar)
+ * [Baz](https://github.com/backdrop-contrib/baz)
 
 Installation
 ------------
@@ -33,20 +35,31 @@ Installation
 Documentation
 -------------
 
-Additional documentation is located in the Wiki:
-https://github.com/backdrop-contrib/foo-project/wiki/Documentation.
+Additional documentation is located in [the Wiki](https://github.com/backdrop-contrib/mymodule/wiki/Documentation).
+
+Only include this section and link if you actually have a Wiki page. Otherwise,
+the link will take the visitor to the main Github project page and they will
+just see the contents of this README file again.
+
+Differences from Drupal 7
+-------------------------
+
+List them here, or don't include this section if none.
 
 Issues
 ------
 
-Bugs and Feature requests should be reported in the Issue Queue:
-https://github.com/backdrop-contrib/foo-project/issues.
+Bugs and feature requests should be reported in [the Issue Queue](https://github.com/backdrop-contrib/mymodule/issues).
 
 Current Maintainers
 -------------------
 
 - John Smith (https://github.com/username).
 - Jane Smith (https://github.com/username).
+
+You may wish to add:
+
+- Seeking additional maintainers.
 
 Credits
 -------
@@ -61,4 +74,9 @@ License
 
 This project is GPL v2 software.
 See the LICENSE.txt file in this directory for complete text.
+
+If your project includes libraries that are licensed in a way compatible with
+GPL v2, you can list that, e.g.,
+
+Foo library is licensed under the MIT license.
 
