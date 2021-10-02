@@ -23,7 +23,7 @@ Installation
 ------------
 
 - Install this module using the official Backdrop CMS instructions at
-  https://backdropcms.org/guide/modules.
+  https://docs.backdropcms.org/documentation/extend-with-modules.
 
 - Visit the configuration page under Administration > Configuration > Category >
   Foo (admin/config/category/foo) and enter the required information.
