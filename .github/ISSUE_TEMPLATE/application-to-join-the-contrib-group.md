@@ -1,7 +1,7 @@
 ---
 name: Application to join the contrib group
 about: Use this template to join backdrop-contrib.
-title: 'Application to join:'
+title: 'Application to join the Contrib Group:'
 labels: Maintainer application
 assignees: klonos
 
@@ -22,9 +22,9 @@ Hello and welcome to the contrib application process! We're happy to have you :)
 
 ## (option #1) Please note these 3 requirements for new contrib projects:
 
-- [ ] Include a README.md file containing license and maintainer information. 
+- [ ] Include a README.md file containing license and maintainer information.
       You can use this example: https://raw.githubusercontent.com/backdrop-ops/contrib/master/examples/README.md
-- [ ] Include a LICENSE.txt file. 
+- [ ] Include a LICENSE.txt file.
       You can use this example: https://raw.githubusercontent.com/backdrop-ops/contrib/master/examples/LICENSE.txt.
 - [ ] If porting a Drupal 7 project, Maintain the Git history from Drupal.
 
