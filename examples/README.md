@@ -37,6 +37,10 @@ Documentation
 
 Additional documentation is located in [the Wiki](https://github.com/backdrop-contrib/mymodule/wiki/Documentation).
 
+Only include this section and link if you actually have a Wiki page. Otherwise,
+the link will take the visitor to the main Github project page and they will
+just see the contents of this README file again.
+
 Differences from Drupal 7
 -------------------------
 
