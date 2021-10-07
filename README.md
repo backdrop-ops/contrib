@@ -179,11 +179,17 @@ When you are ready:
 Releases
 --------
 
-Tag [a release](https://help.github.com/articles/creating-releases/). You must
-tag a release in the format of "1.x-1.0.0" for the packaging script to work.
-You can see right away on the release page if there was an error during the
-packaging process. If successful, your ported project should appear on the
-[modules listing page](https://backdropcms.org/modules) or the
+Create [a release](https://help.github.com/articles/creating-releases/). You
+must add git tag in the format of "1.x-1.0.0" for the packaging script to work.
+The most common order of operations is as follows:
+  1) Add a tag using `git tag 1.x-1.0.0`.
+  2) Push the tag up to the contrib repository.
+  3) Visit the page for the tag in GitHub, and create a release from that page.
+  4) Wait about 5 seconds, then refresh the GitHub release page.
+  5) You should see a "Download XYZ" link appear.
+If there was an error during the packaging process, an error message from the
+packager will be attached instead. If successful, your project should appear on
+the [modules listing page](https://backdropcms.org/modules) or the
 [themes listing page](https://backdropcms.org/themes) on BackdropCMS.org.
 
 
