@@ -1,7 +1,7 @@
 ---
 name: Application to join the contrib group
 about: Use this template to join backdrop-contrib.
-title: 'Application to join the Contrib Group:'
+title: 'Contrib Group Application:'
 labels: Maintainer application
 assignees: klonos
 

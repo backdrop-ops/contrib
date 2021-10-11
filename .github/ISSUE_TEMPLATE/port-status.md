@@ -1,7 +1,7 @@
 ---
 name: Port in progress
 about: Inform the Backdrop community that a port of a Drupal project is underway.
-title: 'Port underway for'
+title: 'Port status:'
 labels: Port in progress
 assignees:
 

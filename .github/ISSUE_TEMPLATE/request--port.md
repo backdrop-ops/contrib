@@ -1,7 +1,7 @@
 ---
 name: Port request
 about: Use this template to request a port of a Drupal project
-title: 'Port request for'
+title: 'Port request:'
 labels: Port request
 assignees:
 
@@ -17,6 +17,6 @@ assignees:
 <!-- example: https://github.com/jenlampton/forum_access -->
 
 **(Optional) Bounty**
-<!-- If you have some budget to fund a port of this project, even if it may not
-reflect the value of this work, please note it here. A developer may inquire
-about the project. -->
+<!-- If you have some budget to fund this project, even if it may not reflect
+  the value of the work to be done, please note it here. It is very possible
+  someone will be interested in doing the work. -->

@@ -1,7 +1,7 @@
 ---
 name: Offer to maintain a project
 about: Use this template to request a maintainer change.
-title: 'Maintainer change request'
+title: 'Maintainer change request:'
 labels: Maintainer change request
 assignees:
 
