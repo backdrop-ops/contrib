@@ -1,19 +1,20 @@
 The Name of My Project
 ======================
 
-Foo project enables you to do bar. The first paragraph of this file should be
-kept short as it will be used as the project summary on backdropcms.org. Aim for
-about 240 characters (three lines at 80 characters each).
+Foo project enables you to do bar. <!-- The first paragraph of this file should
+be kept short as it will be used as the project summary on backdropcms.org. Aim
+for about 240 characters (three lines at 80 characters each). Do not include a
+table of contents. -->
 
-All lines in this file should be no more than 80 characters long for legibility,
-unless including a URL or example that requires the line not wrap. (The first
-line of this paragraph is 80 characters for reference.)
+<!-- All lines in this file should be no more than 80 characters long for
+legibility, unless including a URL or example that requires the line not wrap.
+(The above line starting with "Foo" is 79 characters for reference.)
 
 Detail in READMEs should be limited to the minimum required for installation and
 getting started. More detailed documentation should be moved to a GitHub wiki
-page, for example, https://github.com/backdrop-contrib/setup/wiki/Documentation.
+page, for example, https://github.com/backdrop-contrib/setup/wiki/Documentation. -->
 
-Requirements
+Requirements <!-- Do not include this section if there are no requirements. -->
 ------------
 
 This module requires that the following modules are also enabled:
@@ -21,7 +22,7 @@ This module requires that the following modules are also enabled:
  * [Bar](https://github.com/backdrop-contrib/bar)
  * [Baz](https://github.com/backdrop-contrib/baz)
 
-Installation
+Installation <!-- This section is required. -->
 ------------
 
 - Install this module using the official Backdrop CMS instructions at
@@ -32,36 +33,31 @@ Installation
 
 - Any additional steps.
 
-Documentation
--------------
 
-Additional documentation is located in [the Wiki](https://github.com/backdrop-contrib/mymodule/wiki/Documentation).
-
-Only include this section and link if you actually have a Wiki page. Otherwise,
-the link will take the visitor to the main Github project page and they will
-just see the contents of this README file again.
-
-Differences from Drupal 7
+Differences from Drupal 7 <!-- Do not include if there are no differences. -->
 -------------------------
 
-List them here, or don't include this section if none.
+- Administrative interface has been improved.
 
-Issues
+Documentation <!-- Do not include if you have not created a wiki page. -->
+-------------
+
+Additional documentation is located in [the Wiki](https://github.com/backdrop-contrib/foo-project/wiki/Documentation).
+
+Issues <!-- This section is required. -->
 ------
 
-Bugs and feature requests should be reported in [the Issue Queue](https://github.com/backdrop-contrib/mymodule/issues).
+Bugs and feature requests should be reported in [the Issue Queue](https://github.com/backdrop-contrib/foo-project/issues).
 
-Current Maintainers
+Current Maintainers <!-- This section is required. -->
 -------------------
 
-- John Smith (https://github.com/username).
-- Jane Smith (https://github.com/username).
-
-You may wish to add:
-
+- [John Smith](https://github.com/username).
+- [Jane Lee](https://github.com/username).
+<!-- You may also wish to add: -->
 - Seeking additional maintainers.
 
-Credits
+Credits <!-- This section is required. -->
 -------
 
 - Ported to Backdrop CMS by [Betty Boop](https://github.com/username).
@@ -69,14 +65,13 @@ Credits
 - Based on [The MagicalCode project](https://github.com/example).
 - Inital development sponsored by [MiniCorp](https://minicorp.example.com)
 
-License
+License <!-- This section is required. -->
 -------
 
 This project is GPL v2 software.
 See the LICENSE.txt file in this directory for complete text.
 
-If your project includes libraries that are licensed in a way compatible with
-GPL v2, you can list that, e.g.,
-
-Foo library is licensed under the MIT license.
+<!-- If your project includes other libraries that are licensed in a way that is
+compatible with GPL v2, you can list that here too, for example: `Foo library is
+licensed under the MIT license.` -->
 
