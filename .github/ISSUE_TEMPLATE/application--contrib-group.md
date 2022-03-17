@@ -10,9 +10,9 @@ assignees: klonos
 Hello and welcome to the contrib application process! We're happy to have you :)
 
 **Please indicate how you intend to help the Backdrop community by joining this group**
-* Option #1: I would like to contribute a project
-* Option #2: I would like to maintain a project, but have nothing to contribute at this time
-* Option #3: I would like to update documentation and/or triage issue queues
+* Option 1: I would like to contribute a project
+* Option 2: I would like to maintain a project, but have nothing to contribute at this time
+* Option 3: I would like to update documentation and/or triage issue queues
 <!-- example: Option 1 -->
 
 ## Based on your selection above, please provide the following information:
