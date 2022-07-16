@@ -2,7 +2,7 @@
 name: Request a bug-squad fix
 about: Request that the bug-squad merge a PR.
 title: 'Bug-squad fix: '
-labels: ''
+labels: Bug Squad request
 assignees: ''
 
 ---
