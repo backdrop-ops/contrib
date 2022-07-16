@@ -3,7 +3,7 @@ name: Request a new project
 about: Use this template to request a new module, theme, or layout.
 title: 'New project request:'
 labels: New project request
-assignees:
+assignees: ''
 
 ---
 

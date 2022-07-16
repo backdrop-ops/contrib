@@ -3,7 +3,7 @@ name: Application to join the security team
 about: Use this template to join the backdrop security team.
 title: 'Security Team Application:'
 labels: Security Team Application
-assignees:
+assignees: ''
 
 ---
 
@@ -14,4 +14,3 @@ assignees:
 **Please link to at least 1 GitHub pull request you have filed**
 
 **(Optional) Please link to at least 1 Backdrop project you have contributed to**
-

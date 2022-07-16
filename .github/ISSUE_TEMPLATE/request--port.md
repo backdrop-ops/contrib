@@ -3,7 +3,7 @@ name: Port request
 about: Use this template to request a port of a Drupal project
 title: 'Port request:'
 labels: Port request
-assignees:
+assignees: ''
 
 ---
 

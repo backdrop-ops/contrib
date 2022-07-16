@@ -3,7 +3,7 @@ name: Port in progress
 about: Inform the Backdrop community that a port of a Drupal project is underway.
 title: 'Port status:'
 labels: Port in progress
-assignees:
+assignees: ''
 
 ---
 
@@ -17,4 +17,3 @@ assignees:
 <!-- example: https://www.drupal.org/project/forum_access/issues/3070491 -->
 
 **Do you need assistance with this port?**
-

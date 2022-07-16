@@ -3,7 +3,7 @@ name: Application to join the Bug Squad
 about: Use this template to join the Backdrop CMS Bug Squad.
 title: 'Bug Squad Application:'
 labels: Bug Squad Application
-assignees:
+assignees: ''
 
 ---
 

@@ -2,8 +2,8 @@
 name: Request a security release
 about: This template contains documentation on the security release process.
 title: ''
-labels:
-assignees:
+labels: ''
+assignees: ''
 
 ---
 
