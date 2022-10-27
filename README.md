@@ -138,10 +138,10 @@ When you are ready:
    mentioned [in this post](https://help.github.com/articles/transferring-a-repository-owned-by-your-personal-account/#transferring-to-an-organization).
     1. After clicking 'I understand, transfer this repository', you'll be shown
        the 'Team Access' screen where you choose who will have access to this
-       repo. Tick both 'Authors' and 'Security', then click 'Transfer'.
+       repo. Tick 'Authors' and 'Security' and 'Bug Squad' then click 'Transfer'.
     1. Visit the repository's new page, and go to 'Settings'.
     1. Click 'Collaborators & teams' in the left menu.
-    1. Under 'Teams', set 'Authors' to Admin and 'Security' to Write.
+    1. Under 'Teams', set 'Authors' to Triage, 'Security' to Admin and 'Bug Squad' to Write.
 
 1. If your repository has a 'master' branch, you'll need to create a new
    '1.x-1.x' branch to replace it:
