@@ -179,18 +179,27 @@ When you are ready:
 Releases
 --------
 
-Create [a release](https://help.github.com/articles/creating-releases/). You
-must add git tag in the format of "1.x-1.0.0" for the packaging script to work.
+The module, theme and layout releases on Backdropcms.org rely on GitHub 
+releases. Before creating a GitHub release, you must first add git tag. 
+The format for the tag should be "1.x-1.0.0". "1.x-1.0.0-alpha1" or 
+"1.x-1.0.0--beta1" can also be used to indicate a project is not yet 
+stable and should be used with caution.
+
 The most common order of operations is as follows:
-  1) Add a tag using `git tag 1.x-1.0.0`.
-  2) Push the tag up to the contrib repository.
-  3) Visit the page for the tag in GitHub, and create a release from that page.
-  4) Wait about 5 seconds, then refresh the GitHub release page.
-  5) You should see a "Download XYZ" link appear.
+  1. Add a tag using `git tag 1.x-1.0.0` 
+  1. Push the tag up to the contrib repository.
+  1. Visit the page for the tag in GitHub and 
+[create a release from that page](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository).
+  1. Wait. This process can take anywhere 5 seconds to 5 minutes.
+  1. Refresh the GitHub release page. You should see a "Download XYZ" link appear.
+
+If successful, your project should appear on
+the [modules](https://backdropcms.org/modules),
+[themes](https://backdropcms.org/themes) or [layouts](https://backdropcms.org/layouts) 
+listing pages on BackdropCMS.org.
+
 If there was an error during the packaging process, an error message from the
-packager will be attached instead. If successful, your project should appear on
-the [modules listing page](https://backdropcms.org/modules) or the
-[themes listing page](https://backdropcms.org/themes) on BackdropCMS.org.
+packager will be attached instead. 
 
 
 Security Releases
