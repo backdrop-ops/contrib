@@ -19,3 +19,11 @@ assignees: ''
 
 **Please link to at least 1 Backdrop project where have contributed**
 <!-- example: https://github.com/backdrop-contrib/webform_civicrm -->
+
+**Please confirm that you have read and understand the responsibilities of bug squad members**
+See https://backdropcms.org/leadership/bug-squad
+<!-- example: I have / I have no t-->
+
+**Please confirm that you understand which fixes are eligible for bug squad activity**
+See https://backdropcms.org/leadership/bug-squad
+<!-- example: I do / I do not -->
