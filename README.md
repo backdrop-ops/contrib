@@ -5,7 +5,7 @@ Join the growing Backdrop contributor community at
 https://github.com/backdrop-contrib.
 
 To apply, create a request as an issue in this queue:
-https://github.com/backdrop-ops/contrib/issues/new.
+[https://github.com/backdrop-ops/contrib/issues/new](https://github.com/backdrop-ops/contrib/issues/new?assignees=klonos&labels=Maintainer+application&template=application--contrib-group.md&title=Contrib+Group+Application%3A)
 
 If you have started writing or porting a project for Backdrop, please include a
 link to the module, theme, or layout. If you have posted the code under your
