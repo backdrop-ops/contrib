@@ -198,12 +198,8 @@ Security Releases
 
 You will need to work with the Backdrop Security Team in order to make a
 security release for your project. Please contact security@backdropcms.org to
-begin this process.
-
-You and the security team will choose a Wednesday to coordinate the release, and
-on that day, when you publish the release on GitHub, someone from the Backdrop
-Security Team will need to update the project release node on backdropcms.org to
-inidciate that a release is a security release.
+begin this process. Please see the [Security Release Documentation](https://docs.backdropcms.org/documentation/security-releases)
+for more details.
 
 
 Abandoned Projects
