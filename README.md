@@ -179,11 +179,14 @@ When you are ready:
 Releases
 --------
 
-The module, theme and layout releases on Backdropcms.org rely on GitHub
-releases. Before creating a GitHub release, you must first add git tag.
-The format for the tag should be "1.x-1.0.0". "1.x-1.0.0-alpha1" or
-"1.x-1.0.0-beta1" can also be used to indicate a project is not yet
-stable and should be used with caution.
+Backdrop uses the GitHub release system to distribute its modules, themes and layouts.  
+
+For an asset to be released by GitHub, it must have a git tag, because GitHub uses the  tag to generate the version (and file name) of the release. Backdrop conforms to the Semantic Versioning Format in terms of its tags; a 3 digit version number along with an optional suffix [Learn more about Semantic Versioning](https://www.baeldung.com/cs/semantic-versioning).   
+
+Here are some examples:
+- The simples tag/version expresses the fact that a **new** Backdrop asset is now production grade and ready for release.  In the following example, a newly crafted production-grade Backdrop asset is being released for the first time ("1.x-1.0.0").
+- A slightly more complicated tag/version expresses the fact that the asset has been **imported** from some other system.  The following example features a version 3.x Drupal asset that was ported over to Backdrop, with its tag/version indicating as such ("1.x-3.0.0").  
+- The most complex tag/version handles the situation of a **premature** release.  This happens in order to solicit or enable feedback,  programming assistance, documentation support or testing from others.  Premature releases must feature a tag/version that clearly indicates they are premature ("alpha", "beta", ...), coupled with a tracking number that indicates their pre-production iteration ("1", "2", ...).  In the following two examples, Backdrop assets are being released prematurely, with their tag/version numbers clearly indicating that they should be approached with caution ("1.x-1.0.0-alpha1", "1.x-3.0.0-beta2").
 
 The most common order of operations is as follows:
   1. Add a tag using `git tag 1.x-1.0.0`
